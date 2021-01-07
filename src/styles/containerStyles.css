@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 5%;
 }
 
 .contentDiv {
@@ -15,4 +16,10 @@
 
 .sidebarDiv {
   border: 3px solid blue;
+  border-left: .5px solid white;
+  padding-left: 8px;
+}
+
+.sidebarLine {
+  border-bottom: 0.3px solid white;
 }
