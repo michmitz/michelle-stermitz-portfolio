@@ -1,0 +1,7 @@
+.colorSchemeDiv {
+  line-height: 1em;
+  font-weight: 100;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-direction: column;
+}
