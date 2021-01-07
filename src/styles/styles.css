@@ -1,13 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
-  background-color: black;
-  color: white;
+:root {
+  background-color: var(--background);
+  color: var(--text);
   font-family: 'Roboto Slab', serif;
-  font-size: 12px;
+
+  --text: white;
+  --background: black;
+  --line: white;
 }
 
 .sectionHeader {
   font-family: 'Roboto Slab', serif;
   font-size: 25px;
+}
+
+h2 {
+  font-size: 1.3em;
 }

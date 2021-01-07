@@ -3,7 +3,7 @@ import React from 'react'
 export default function ContactLinks() {
   return (
     <div>
-      <h1>Contact Links</h1>
+      <h2>Contact Links</h2>
     </div>
   );
 }
