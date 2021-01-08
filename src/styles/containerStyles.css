@@ -20,7 +20,7 @@
 
 .sidebarDiv {
   border: 3px solid blue;
-  border-left: .3px solid var(--line);
+  border-left: 1px solid var(--line);
   padding-left: 3px;
 }
 

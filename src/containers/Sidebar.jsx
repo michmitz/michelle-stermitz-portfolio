@@ -9,9 +9,9 @@ export default function Sidebar() {
     <div className={containerStyles.sidebarDiv}>
       <Sounds />
       <div className={containerStyles.sidebarLine} />
-      <ContactLinks />
-      <div className={containerStyles.sidebarLine} />
       <ColorScheme />
+      <div className={containerStyles.sidebarLine} />
+      <ContactLinks />
     </div>
   );
 }

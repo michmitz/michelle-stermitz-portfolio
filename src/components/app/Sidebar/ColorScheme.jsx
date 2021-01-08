@@ -37,7 +37,7 @@ const handleChange = (e) => {
 export default function ColorScheme() {
   return (
     <div className={sidebarStyles.colorSchemeDiv}>
-      <h2>Color Scheme</h2>
+      <h2>Theme</h2>
 
       <label>
         <input 

@@ -133,19 +133,11 @@ exports[`App component renders App 1`] = `
         <div
           class="sidebarLine"
         />
-        <div>
-          <h2>
-            Contact Links
-          </h2>
-        </div>
-        <div
-          class="sidebarLine"
-        />
         <div
           class="colorSchemeDiv"
         >
           <h2>
-            Color Scheme
+            Theme
           </h2>
           <label>
             <input
@@ -171,6 +163,60 @@ exports[`App component renders App 1`] = `
             />
             Random
           </label>
+        </div>
+        <div
+          class="sidebarLine"
+        />
+        <div
+          class="contactDiv"
+        >
+          <p
+            class="disclaimer"
+          >
+            site created by Michelle Stermitz, inspired by 
+            <a
+              href="http://brunobord.github.io/relax/"
+            >
+              this
+            </a>
+             lovely app. To view sound credits please see my 
+            <a
+              href="https://github.com/michmitz/michelle-stermitz-portfolio"
+            >
+              source code.
+            </a>
+             Thanks for visiting!
+          </p>
+          <a
+            href="https://github.com/michmitz"
+          >
+            <img
+              alt="/assets/github-logo-white.png"
+              class="githubIcon"
+              src="/assets/github-logo-white.png"
+            />
+            /michmitz
+          </a>
+          <a
+            href="https://linkedin.com/in/michellestermitz"
+          >
+            <img
+              alt="/assets/linkedin-white.png"
+              class="icon"
+              src="/assets/linkedin-white.png"
+            />
+            LinkedIn
+          </a>
+          <a
+            href="https://twitter.com/michmitzpdx"
+          >
+            <img
+              alt="/assets/twitter-white.png"
+              class="icon"
+              src="/assets/twitter-white.png"
+            />
+            @michmitzpdx
+          </a>
         </div>
       </div>
     </div>

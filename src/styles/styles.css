@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
   background-color: var(--background);
   color: var(--text);
   font-family: 'Roboto Slab', serif;
+
+  --bodyFont: 'Roboto Slab', serif;
+  --headerFont: 'Lato', sans-serif;
 
   --text: white;
   --background: black;
@@ -11,10 +15,18 @@
 }
 
 .sectionHeader {
-  font-family: 'Roboto Slab', serif;
+  font-family: var(--headerFont);
   font-size: 25px;
 }
 
-h2 {
-  font-size: 1.3em;
+h1 {
+  font-family: var(--headerFont);
 }
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 200;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
