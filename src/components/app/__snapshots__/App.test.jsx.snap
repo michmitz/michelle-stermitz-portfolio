@@ -2,8 +2,224 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <h1>
-    Hello World
-  </h1>
+  <div
+    class="appContainer"
+  >
+    <div>
+      <h1>
+        I'm Michelle.
+      </h1>
+    </div>
+    <div
+      class="contentAndSidebarDiv"
+    >
+      <div
+        class="contentDiv"
+      >
+        <div
+          class="Collapsible sectionHeader"
+        >
+          <span
+            class="Collapsible__trigger is-closed"
+          >
+            About Me
+          </span>
+          <div
+            class="Collapsible__contentOuter"
+            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
+          >
+            <div
+              class="Collapsible__contentInner"
+            >
+              <p>
+                Testing
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Collapsible sectionHeader"
+        >
+          <span
+            class="Collapsible__trigger is-closed"
+          >
+            Projects
+          </span>
+          <div
+            class="Collapsible__contentOuter"
+            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
+          >
+            <div
+              class="Collapsible__contentInner"
+            >
+              <p>
+                Projects
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Collapsible sectionHeader"
+        >
+          <span
+            class="Collapsible__trigger is-closed"
+          >
+            Working On
+          </span>
+          <div
+            class="Collapsible__contentOuter"
+            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
+          >
+            <div
+              class="Collapsible__contentInner"
+            >
+              <p>
+                Working On
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Collapsible sectionHeader"
+        >
+          <span
+            class="Collapsible__trigger is-closed"
+          >
+            Collaborate
+          </span>
+          <div
+            class="Collapsible__contentOuter"
+            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
+          >
+            <div
+              class="Collapsible__contentInner"
+            >
+              <p>
+                Collaborate
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Collapsible sectionHeader"
+        >
+          <span
+            class="Collapsible__trigger is-closed"
+          >
+            Resume & Work Timeline
+          </span>
+          <div
+            class="Collapsible__contentOuter"
+            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
+          >
+            <div
+              class="Collapsible__contentInner"
+            >
+              <p>
+                Resume and Work Timeline
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="sidebarDiv"
+      >
+        <div>
+          <h2>
+            Sounds
+          </h2>
+        </div>
+        <div
+          class="sidebarLine"
+        />
+        <div
+          class="colorSchemeDiv"
+        >
+          <h2>
+            Theme
+          </h2>
+          <label>
+            <input
+              name="color"
+              type="radio"
+              value="light"
+            />
+            Light
+          </label>
+          <label>
+            <input
+              name="color"
+              type="radio"
+              value="dark"
+            />
+            Dark
+          </label>
+          <label>
+            <input
+              name="color"
+              type="radio"
+              value="random"
+            />
+            Random
+          </label>
+        </div>
+        <div
+          class="sidebarLine"
+        />
+        <div
+          class="contactDiv"
+        >
+          <p
+            class="disclaimer"
+          >
+            site created by Michelle Stermitz, inspired by 
+            <a
+              href="http://brunobord.github.io/relax/"
+            >
+              this
+            </a>
+             lovely app. To view sound credits please see my 
+            <a
+              href="https://github.com/michmitz/michelle-stermitz-portfolio"
+            >
+              source code.
+            </a>
+             Thanks for visiting!
+          </p>
+          <a
+            href="https://github.com/michmitz"
+          >
+            <img
+              alt="/assets/github-logo-white.png"
+              class="githubIcon"
+              src="/assets/github-logo-white.png"
+            />
+            /michmitz
+          </a>
+          <a
+            href="https://linkedin.com/in/michellestermitz"
+          >
+            <img
+              alt="/assets/linkedin-white.png"
+              class="icon"
+              src="/assets/linkedin-white.png"
+            />
+            LinkedIn
+          </a>
+          <a
+            href="https://twitter.com/michmitzpdx"
+          >
+            <img
+              alt="/assets/twitter-white.png"
+              class="icon"
+              src="/assets/twitter-white.png"
+            />
+            @michmitzpdx
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
 </DocumentFragment>
 `;

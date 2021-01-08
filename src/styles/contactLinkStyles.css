@@ -1,0 +1,28 @@
+.icon {
+  height: 15px;
+  width: auto;
+  padding: 0px 4px 0px 3px;
+}
+
+.githubIcon {
+  height: 15px;
+  width: auto;
+}
+
+.contactDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  max-width: 150px;
+}
+
+a {
+  color: var(--text);
+  font-weight: 200;
+}
+
+.disclaimer {
+  font-size: 12px;
+  font-weight: 300;
+}

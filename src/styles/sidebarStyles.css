@@ -1,0 +1,8 @@
+.colorSchemeDiv {
+  line-height: 1em;
+  font-weight: 100;
+  font-family: var(--bodyFont);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7px;
+}

@@ -22,7 +22,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "randomcolor": "^0.6.2",
     "react": "^17.0.1",
+    "react-collapsible": "^2.8.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {

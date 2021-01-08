@@ -1,0 +1,30 @@
+.appContainer {
+  border: 3px solid black;
+}
+
+.contentAndSidebarDiv {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.contentDiv {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5em;
+  border: 3px solid green;
+  font-weight: 400;
+}
+
+.sidebarDiv {
+  border: 3px solid blue;
+  border-left: 1px solid var(--line);
+  padding-left: 3px;
+}
+
+.sidebarLine {
+  border-bottom: .5px solid var(--line);
+  max-width: 50%;
+}
