@@ -6,9 +6,9 @@ exports[`App component renders App 1`] = `
     class="appContainer"
   >
     <div>
-      <h1>
-        I'm Michelle.
-      </h1>
+      <header>
+        Hello! I'm Michelle.
+      </header>
     </div>
     <div
       class="contentAndSidebarDiv"
@@ -125,10 +125,60 @@ exports[`App component renders App 1`] = `
       <div
         class="sidebarDiv"
       >
-        <div>
+        <div
+          class="soundsDiv"
+        >
           <h2>
-            Sounds
+            Relax.
           </h2>
+          <label>
+            <input
+              name="sound"
+              type="radio"
+              value="fireplace"
+            />
+            fireplace
+          </label>
+          <label>
+            <input
+              name="sound"
+              type="radio"
+              value="stream"
+            />
+            stream
+          </label>
+          <label>
+            <input
+              name="sound"
+              type="radio"
+              value="snow"
+            />
+            snow
+          </label>
+          <label>
+            <input
+              name="sound"
+              type="radio"
+              value="rain"
+            />
+            rain
+          </label>
+          <label>
+            <input
+              name="sound"
+              type="radio"
+              value="birds"
+            />
+            birds
+          </label>
+          <label>
+            <input
+              name="sound"
+              type="radio"
+              value="ocean"
+            />
+            ocean
+          </label>
         </div>
         <div
           class="sidebarLine"
@@ -145,7 +195,7 @@ exports[`App component renders App 1`] = `
               type="radio"
               value="light"
             />
-            Light
+            light
           </label>
           <label>
             <input
@@ -153,7 +203,7 @@ exports[`App component renders App 1`] = `
               type="radio"
               value="dark"
             />
-            Dark
+            dark
           </label>
           <label>
             <input
@@ -161,7 +211,7 @@ exports[`App component renders App 1`] = `
               type="radio"
               value="random"
             />
-            Random
+            random
           </label>
         </div>
         <div

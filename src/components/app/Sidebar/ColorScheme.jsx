@@ -45,7 +45,7 @@ export default function ColorScheme() {
           name="color" 
           value="light"
           onChange={handleChange}  />
-            Light
+            light
       </label>
 
       <label>
@@ -54,7 +54,7 @@ export default function ColorScheme() {
           name="color" 
           value="dark"
           onChange={handleChange}  />
-            Dark
+            dark
       </label>
 
       <label>
@@ -63,7 +63,7 @@ export default function ColorScheme() {
           name="color" 
           value="random"
           onChange={handleChange} />
-            Random
+            random
       </label>
 
     </div>

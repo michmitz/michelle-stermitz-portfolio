@@ -4,5 +4,15 @@
   font-family: var(--bodyFont);
   display: flex;
   flex-direction: column;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
+}
+
+.soundsDiv {
+  font-size: .9em;
+  line-height: 1em;
+  font-weight: 100;
+  font-family: var(--bodyFont);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
 }
