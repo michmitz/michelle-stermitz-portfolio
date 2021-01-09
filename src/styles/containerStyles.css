@@ -1,4 +1,5 @@
 .appContainer {
+  padding-top: 3%;
   border: 3px solid black;
 }
 
@@ -7,7 +8,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5%;
+  padding: 8%;
 }
 
 .contentDiv {
@@ -19,7 +20,7 @@
 }
 
 .sidebarDiv {
-  border: 3px solid blue;
+
   border-left: 1px solid var(--line);
   padding-left: 3px;
 }

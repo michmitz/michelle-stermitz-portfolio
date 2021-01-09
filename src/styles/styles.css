@@ -14,9 +14,17 @@
   --line: white;
 }
 
+header {
+  font-family: var(--headerFont);
+  font-size: 1.7em;
+  font-weight: 300;
+  padding-left: 5%;
+}
+
 .sectionHeader {
   font-family: var(--headerFont);
-  font-size: 25px;
+  font-size: 1.5em;
+  font-weight: 300;
 }
 
 h1 {
