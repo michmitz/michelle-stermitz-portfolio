@@ -16,3 +16,15 @@
   flex-direction: column;
   margin-bottom: 8px;
 }
+
+.muteButton {
+  background-color: white;
+  width: 16px;
+  height: 16px;
+  margin: 6px 4px 0px 4px;
+}
+
+.muteLabel {
+  font-size: 1.2em;
+  font-weight: 300;
+}
