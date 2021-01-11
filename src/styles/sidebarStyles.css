@@ -4,5 +4,27 @@
   font-family: var(--bodyFont);
   display: flex;
   flex-direction: column;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
+}
+
+.soundsDiv {
+  font-size: .9em;
+  line-height: 1em;
+  font-weight: 100;
+  font-family: var(--bodyFont);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.muteButton {
+  background-color: white;
+  width: 16px;
+  height: 16px;
+  margin: 6px 4px 0px 4px;
+}
+
+.muteLabel {
+  font-size: 1.2em;
+  font-weight: 300;
 }
