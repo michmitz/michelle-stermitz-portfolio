@@ -13,7 +13,7 @@ export default function Sounds() {
   const options = {
     loope: true,
     volume: 0.5
-  };
+  }; 
 
   const [playFire, fireOptions] = useSound(fire, options);
   const [playStream, streamOptions] = useSound(stream, options);

@@ -129,15 +129,15 @@ exports[`App component renders App 1`] = `
           class="soundsDiv"
         >
           <h2>
-            Relax.
+            Relax with a sound.
           </h2>
           <label>
             <input
               name="sound"
               type="radio"
-              value="fireplace"
+              value="fire"
             />
-            fireplace
+            fire
           </label>
           <label>
             <input
@@ -146,14 +146,6 @@ exports[`App component renders App 1`] = `
               value="stream"
             />
             stream
-          </label>
-          <label>
-            <input
-              name="sound"
-              type="radio"
-              value="snow"
-            />
-            snow
           </label>
           <label>
             <input
@@ -175,9 +167,19 @@ exports[`App component renders App 1`] = `
             <input
               name="sound"
               type="radio"
-              value="ocean"
+              value="waves"
             />
-            ocean
+            waves
+          </label>
+          <label
+            class="muteLabel"
+          >
+            <button
+              class="muteButton"
+              name="mute"
+              value="mute"
+            />
+            mute
           </label>
         </div>
         <div
