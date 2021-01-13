@@ -14,48 +14,51 @@ import Projects from './Content/Projects/Projects';
 import WorkTimeline from './Content/WorkTimeline/WorkTimeline';
 import WorkingOn from './Content/WorkingOn/WorkingOn';
 import Collaborate from './Content/Collaborate/Collaborate';
+import FadeIn from 'react-fade-in';
 
 export default function App() {
   return ( 
-    <div className={containerStyles.appContainer}>
-      <Header />
-      <div className={containerStyles.contentAndSidebarDiv}>
-        <Router>
-          <Switch>
-            <Route
-              path="/"
-              exact
-              render={(routerProps) => <Content {...routerProps} />}
-            />
-            <Route
-              path="/about-me"
-              exact
-              render={(routerProps) => <AboutMe {...routerProps} />}
-            />
-            <Route
-              path="/projects"
-              exact
-              render={(routerProps) => <Projects {...routerProps} />}
-            />
-            <Route
-              path="/working-on"
-              exact
-              render={(routerProps) => <WorkingOn {...routerProps} />}
-            />
-            <Route
-              path="/collaborate"
-              exact
-              render={(routerProps) => <Collaborate {...routerProps} />}
-            />
-            <Route
-              path="/experience"
-              exact
-              render={(routerProps) => <WorkTimeline {...routerProps} />}
-            />
-          </Switch>
-        </Router>
-        <Sidebar />
+    <FadeIn transitionDuration={3000}>
+      <div className={containerStyles.appContainer}>
+        <Header />
+        <div className={containerStyles.contentAndSidebarDiv}>
+          <Router>
+            <Switch>
+              <Route
+                path="/"
+                exact
+                render={(routerProps) => <Content {...routerProps} />}
+              />
+              <Route
+                path="/about-me"
+                exact
+                render={(routerProps) => <AboutMe {...routerProps} />}
+              />
+              <Route
+                path="/projects"
+                exact
+                render={(routerProps) => <Projects {...routerProps} />}
+              />
+              <Route
+                path="/working-on"
+                exact
+                render={(routerProps) => <WorkingOn {...routerProps} />}
+              />
+              <Route
+                path="/collaborate"
+                exact
+                render={(routerProps) => <Collaborate {...routerProps} />}
+              />
+              <Route
+                path="/experience"
+                exact
+                render={(routerProps) => <WorkTimeline {...routerProps} />}
+              />
+            </Switch>
+          </Router>
+          <Sidebar />
+        </div>
       </div>
-    </div>
+    </FadeIn>
   );
 }

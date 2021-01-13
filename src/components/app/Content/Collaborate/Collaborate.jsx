@@ -7,7 +7,7 @@ export default function Collaborate() {
   return (
     <div className={styles.contentDiv}>
       <Link to="/" className={styles.returnLink}>Return</Link>
-      <h2>Collaborate</h2>
+      <header className={styles.contentHeader}>Collaborate</header>
     </div>
   );
 }

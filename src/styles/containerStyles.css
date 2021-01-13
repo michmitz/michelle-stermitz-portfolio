@@ -1,28 +1,27 @@
 .appContainer {
   padding-top: 3%;
   min-height: 60em;
-  border: 2px solid white;
 }
 
 .contentAndSidebarDiv {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 8%;
+  margin: 8%;
 }
 
-.contentDiv {
+.appContentDiv {
   display: flex;
   flex-direction: column;
   line-height: 2.5em;
-  border: 2px solid white;
+  border: 1px solid white;
   font-weight: 400;
-  max-width: 85%;
+  padding: 6em;
 } 
 
 .sidebarDiv {
   border-left: 1px solid var(--line);
-  padding-left: 3px;
+  padding: 0px 6px 0px 3px;
   height: 28em;
 }
 

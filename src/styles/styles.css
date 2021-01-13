@@ -21,19 +21,13 @@ header {
   padding-left: 5%;
 }
 
-.sectionHeader {
-  font-family: var(--headerFont);
-  font-size: 1.5em;
-  font-weight: 300;
-}
-
 h1 {
   font-family: var(--headerFont);
 }
 
 h2 {
   font-size: 1.2em;
-  font-weight: 200;
+  font-weight: 100;
   padding: 0;
   margin-bottom: 8px;
 }
@@ -41,9 +35,21 @@ h2 {
 .returnLink {
   font-family: var(--headerFont);
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 .contentDiv {
-  max-width: 80%;
+  font-family: var(--bodyFont);
+  font-weight: 300;
+  padding: 4%;
+  max-width: 75%;
+  border: 1px white solid;
 }
+
+.contentHeader {
+  font-size: 2.5em;
+  font-weight: 200;
+  padding: 5%;
+  margin-bottom: 8px;
+}
+
