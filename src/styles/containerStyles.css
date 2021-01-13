@@ -1,30 +1,36 @@
 .appContainer {
-  border: 3px solid black;
+  padding-top: 3%;
+  min-height: 60em;
 }
 
 .contentAndSidebarDiv {
-  border: 3px solid red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5%;
+  margin: 8%;
 }
 
-.contentDiv {
+.appContentDiv {
   display: flex;
   flex-direction: column;
   line-height: 2.5em;
-  border: 3px solid green;
+  border: 1px solid white;
   font-weight: 400;
-}
+  padding: 6em;
+} 
 
 .sidebarDiv {
-  border: 3px solid blue;
   border-left: 1px solid var(--line);
-  padding-left: 3px;
+  padding: 0px 6px 0px 3px;
+  height: 28em;
 }
 
 .sidebarLine {
   border-bottom: .5px solid var(--line);
   max-width: 50%;
+}
+
+.headerLinks {
+  font-size: 1.5em;
+  text-decoration: none;
 }

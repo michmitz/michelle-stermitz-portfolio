@@ -84,7 +84,11 @@ module.exports = {
           loader: 'url-loader',
           options: { limit: 1000 },
         },
+      },
+      {
+        test: /\.mp3$/,
+        loader: 'file-loader'
       }
     ]
-  }
+  },
 };

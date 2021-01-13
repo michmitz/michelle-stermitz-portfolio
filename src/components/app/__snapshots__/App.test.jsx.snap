@@ -2,221 +2,204 @@
 
 exports[`App component renders App 1`] = `
 <DocumentFragment>
-  <div
-    class="appContainer"
-  >
-    <div>
-      <h1>
-        I'm Michelle.
-      </h1>
-    </div>
+  <div>
     <div
-      class="contentAndSidebarDiv"
+      style="transition: opacity 3000ms, transform 3000ms; transform: translateY(20px); opacity: 0;"
     >
       <div
-        class="contentDiv"
-      >
-        <div
-          class="Collapsible sectionHeader"
-        >
-          <span
-            class="Collapsible__trigger is-closed"
-          >
-            About Me
-          </span>
-          <div
-            class="Collapsible__contentOuter"
-            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
-          >
-            <div
-              class="Collapsible__contentInner"
-            >
-              <p>
-                Testing
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="Collapsible sectionHeader"
-        >
-          <span
-            class="Collapsible__trigger is-closed"
-          >
-            Projects
-          </span>
-          <div
-            class="Collapsible__contentOuter"
-            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
-          >
-            <div
-              class="Collapsible__contentInner"
-            >
-              <p>
-                Projects
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="Collapsible sectionHeader"
-        >
-          <span
-            class="Collapsible__trigger is-closed"
-          >
-            Working On
-          </span>
-          <div
-            class="Collapsible__contentOuter"
-            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
-          >
-            <div
-              class="Collapsible__contentInner"
-            >
-              <p>
-                Working On
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="Collapsible sectionHeader"
-        >
-          <span
-            class="Collapsible__trigger is-closed"
-          >
-            Collaborate
-          </span>
-          <div
-            class="Collapsible__contentOuter"
-            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
-          >
-            <div
-              class="Collapsible__contentInner"
-            >
-              <p>
-                Collaborate
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="Collapsible sectionHeader"
-        >
-          <span
-            class="Collapsible__trigger is-closed"
-          >
-            Resume & Work Timeline
-          </span>
-          <div
-            class="Collapsible__contentOuter"
-            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
-          >
-            <div
-              class="Collapsible__contentInner"
-            >
-              <p>
-                Resume and Work Timeline
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="sidebarDiv"
+        class="appContainer"
       >
         <div>
-          <h2>
-            Sounds
-          </h2>
+          <header>
+            Hello! I'm Michelle.
+          </header>
         </div>
         <div
-          class="sidebarLine"
-        />
-        <div
-          class="colorSchemeDiv"
+          class="contentAndSidebarDiv"
         >
-          <h2>
-            Theme
-          </h2>
-          <label>
-            <input
-              name="color"
-              type="radio"
-              value="light"
-            />
-            Light
-          </label>
-          <label>
-            <input
-              name="color"
-              type="radio"
-              value="dark"
-            />
-            Dark
-          </label>
-          <label>
-            <input
-              name="color"
-              type="radio"
-              value="random"
-            />
-            Random
-          </label>
-        </div>
-        <div
-          class="sidebarLine"
-        />
-        <div
-          class="contactDiv"
-        >
-          <p
-            class="disclaimer"
+          <div
+            class="appContentDiv"
           >
-            site created by Michelle Stermitz, inspired by 
             <a
-              href="http://brunobord.github.io/relax/"
+              class="headerLinks"
+              href="/about-me"
             >
-              this
+              About Me
             </a>
-             lovely app. To view sound credits please see my 
             <a
-              href="https://github.com/michmitz/michelle-stermitz-portfolio"
+              class="headerLinks"
+              href="/projects"
             >
-              source code.
+              Past Projects
             </a>
-             Thanks for visiting!
-          </p>
-          <a
-            href="https://github.com/michmitz"
+            <a
+              class="headerLinks"
+              href="/working-on"
+            >
+              Current Projects
+            </a>
+            <a
+              class="headerLinks"
+              href="/collaborate"
+            >
+              Collaborate
+            </a>
+            <a
+              class="headerLinks"
+              href="/experience"
+            >
+              Resume & Experience
+            </a>
+          </div>
+          <div
+            class="sidebarDiv"
           >
-            <img
-              alt="/assets/github-logo-white.png"
-              class="githubIcon"
-              src="/assets/github-logo-white.png"
+            <div
+              class="soundsDiv"
+            >
+              <h2>
+                Relax with a sound.
+              </h2>
+              <label>
+                <input
+                  name="sound"
+                  type="radio"
+                  value="fire"
+                />
+                fire
+              </label>
+              <label>
+                <input
+                  name="sound"
+                  type="radio"
+                  value="stream"
+                />
+                stream
+              </label>
+              <label>
+                <input
+                  name="sound"
+                  type="radio"
+                  value="rain"
+                />
+                rain
+              </label>
+              <label>
+                <input
+                  name="sound"
+                  type="radio"
+                  value="birds"
+                />
+                birds
+              </label>
+              <label>
+                <input
+                  name="sound"
+                  type="radio"
+                  value="waves"
+                />
+                waves
+              </label>
+              <label
+                class="muteLabel"
+              >
+                <button
+                  class="muteButton"
+                  name="mute"
+                  value="mute"
+                />
+                mute
+              </label>
+            </div>
+            <div
+              class="sidebarLine"
             />
-            /michmitz
-          </a>
-          <a
-            href="https://linkedin.com/in/michellestermitz"
-          >
-            <img
-              alt="/assets/linkedin-white.png"
-              class="icon"
-              src="/assets/linkedin-white.png"
+            <div
+              class="colorSchemeDiv"
+            >
+              <h2>
+                Theme
+              </h2>
+              <label>
+                <input
+                  name="color"
+                  type="radio"
+                  value="light"
+                />
+                light
+              </label>
+              <label>
+                <input
+                  name="color"
+                  type="radio"
+                  value="dark"
+                />
+                dark
+              </label>
+              <label>
+                <input
+                  name="color"
+                  type="radio"
+                  value="random"
+                />
+                random
+              </label>
+            </div>
+            <div
+              class="sidebarLine"
             />
-            LinkedIn
-          </a>
-          <a
-            href="https://twitter.com/michmitzpdx"
-          >
-            <img
-              alt="/assets/twitter-white.png"
-              class="icon"
-              src="/assets/twitter-white.png"
-            />
-            @michmitzpdx
-          </a>
+            <div
+              class="contactDiv"
+            >
+              <p
+                class="disclaimer"
+              >
+                site created by Michelle Stermitz, inspired by 
+                <a
+                  href="http://brunobord.github.io/relax/"
+                >
+                  this
+                </a>
+                 lovely app. To view sound credits please see my 
+                <a
+                  href="https://github.com/michmitz/michelle-stermitz-portfolio"
+                >
+                  source code.
+                </a>
+                 Thanks for visiting!
+              </p>
+              <a
+                href="https://github.com/michmitz"
+              >
+                <img
+                  alt="/assets/github-logo-white.png"
+                  class="githubIcon"
+                  src="/assets/github-logo-white.png"
+                />
+                /michmitz
+              </a>
+              <a
+                href="https://linkedin.com/in/michellestermitz"
+              >
+                <img
+                  alt="/assets/linkedin-white.png"
+                  class="icon"
+                  src="/assets/linkedin-white.png"
+                />
+                LinkedIn
+              </a>
+              <a
+                href="https://twitter.com/michmitzpdx"
+              >
+                <img
+                  alt="/assets/twitter-white.png"
+                  class="icon"
+                  src="/assets/twitter-white.png"
+                />
+                @michmitzpdx
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
