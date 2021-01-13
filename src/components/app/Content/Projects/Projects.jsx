@@ -1,12 +1,13 @@
 /* eslint-disable max-len */
 import React from 'react';
-import Collapsible from 'react-collapsible';
+import { Link } from 'react-router-dom';
 import styles from '../../../../styles/styles.css';
 
 export default function Projects() {
   return (
-    <Collapsible trigger="Projects" transitionTime="100" className={styles.sectionHeader}>
-      <p>Projects</p>
-    </Collapsible>
+    <div className={styles.contentDiv}>
+      <Link to="/" className={styles.returnLink}>Return</Link>
+      <h2>Projects</h2>
+    </div>
   );
 }

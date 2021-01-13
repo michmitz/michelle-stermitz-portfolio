@@ -16,111 +16,36 @@ exports[`App component renders App 1`] = `
       <div
         class="contentDiv"
       >
-        <div
-          class="Collapsible sectionHeader"
+        <a
+          class="headerLinks"
+          href="/about-me"
         >
-          <span
-            class="Collapsible__trigger is-closed"
-          >
-            About Me
-          </span>
-          <div
-            class="Collapsible__contentOuter"
-            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
-          >
-            <div
-              class="Collapsible__contentInner"
-            >
-              <p>
-                Testing
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="Collapsible sectionHeader"
+          About Me
+        </a>
+        <a
+          class="headerLinks"
+          href="/projects"
         >
-          <span
-            class="Collapsible__trigger is-closed"
-          >
-            Projects
-          </span>
-          <div
-            class="Collapsible__contentOuter"
-            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
-          >
-            <div
-              class="Collapsible__contentInner"
-            >
-              <p>
-                Projects
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="Collapsible sectionHeader"
+          Previous Projects
+        </a>
+        <a
+          class="headerLinks"
+          href="/working-on"
         >
-          <span
-            class="Collapsible__trigger is-closed"
-          >
-            Working On
-          </span>
-          <div
-            class="Collapsible__contentOuter"
-            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
-          >
-            <div
-              class="Collapsible__contentInner"
-            >
-              <p>
-                Working On
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="Collapsible sectionHeader"
+          Working On
+        </a>
+        <a
+          class="headerLinks"
+          href="/collaborate"
         >
-          <span
-            class="Collapsible__trigger is-closed"
-          >
-            Collaborate
-          </span>
-          <div
-            class="Collapsible__contentOuter"
-            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
-          >
-            <div
-              class="Collapsible__contentInner"
-            >
-              <p>
-                Collaborate
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="Collapsible sectionHeader"
+          Collaborate
+        </a>
+        <a
+          class="headerLinks"
+          href="/experience"
         >
-          <span
-            class="Collapsible__trigger is-closed"
-          >
-            Resume & Work Timeline
-          </span>
-          <div
-            class="Collapsible__contentOuter"
-            style="height: 0px; transition: height 100ms linear; overflow: hidden;"
-          >
-            <div
-              class="Collapsible__contentInner"
-            >
-              <p>
-                Resume and Work Timeline
-              </p>
-            </div>
-          </div>
-        </div>
+          Experience
+        </a>
       </div>
       <div
         class="sidebarDiv"

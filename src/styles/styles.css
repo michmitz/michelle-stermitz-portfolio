@@ -38,3 +38,12 @@ h2 {
   margin-bottom: 8px;
 }
 
+.returnLink {
+  font-family: var(--headerFont);
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.contentDiv {
+  max-width: 80%;
+}
