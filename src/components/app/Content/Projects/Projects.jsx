@@ -7,6 +7,7 @@ import Fungus from './ProjectItems/Fungus';
 import projectStyles from '../../../../styles/projectStyles.css';
 import TrulyTrivial from './ProjectItems/TrulyTrivial';
 import Terminus from './ProjectItems/Terminus';
+import AMAzine from './ProjectItems/AMAzine';
 
 export default function Projects() {
   return (
@@ -14,9 +15,10 @@ export default function Projects() {
       <Link to="/" className={styles.returnLink}>Return</Link>
       <header className={styles.contentHeader}>Past Projects</header>
       <div className={projectStyles.sliderDiv}>
+        <AMAzine />
         <Fungus />
-        <TrulyTrivial />
         <Terminus />
+        <TrulyTrivial />
       </div>
     </FadeIn>
   );
