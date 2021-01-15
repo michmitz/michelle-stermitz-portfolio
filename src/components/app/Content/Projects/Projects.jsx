@@ -6,6 +6,7 @@ import styles from '../../../../styles/styles.css';
 import Fungus from './ProjectItems/Fungus';
 import projectStyles from '../../../../styles/projectStyles.css';
 import TrulyTrivial from './ProjectItems/TrulyTrivial';
+import Terminus from './ProjectItems/Terminus';
 
 export default function Projects() {
   return (
@@ -15,6 +16,7 @@ export default function Projects() {
       <div className={projectStyles.sliderDiv}>
         <Fungus />
         <TrulyTrivial />
+        <Terminus />
       </div>
     </FadeIn>
   );
