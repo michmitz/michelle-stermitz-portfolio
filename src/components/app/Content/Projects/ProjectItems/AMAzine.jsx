@@ -20,10 +20,22 @@ export default function AMAzine() {
 
   return (
     <div className={projectStyles.slider}>{amazineSlider}
-      <h2 className={projectStyles.projectName}>AMAzine</h2>
+      <a href="https://amazine.app" className={projectStyles.projectName}>AMAzine</a>
+
       <h3 className={projectStyles.tech}>Tech: Python (PRAW), Node.js, PostgreSQL, React</h3>
+
       <p>AMAzine is a web-magazine that scrapes interviews from Reddit's "Ask Me Anything" subreddit, as well as recipes and a photo of the day from multiple APIs.</p>
+
       <p>AMAzine was built in a week-long sprint using Python, Node and PostgreSQL on the back end and React on the front end. I wrote all but one of our eight API calls on the backend, custom hooks and services on the front end. I also heavily contributed to the functionality of our components and styled the Thread Details page.</p>
+
+      <label className={projectStyles.githubLabel}>
+        <img className={projectStyles.githubIcon} src={'/assets/GitHub-Mark.png'} />
+        <a href="https://github.com/AMA-Zine">GitHub</a>
+      </label>
+
+      <label className={projectStyles.websiteLabel}>
+        <a href="https://amazine.app">Website</a>
+      </label>
     </div>
   );
 }
