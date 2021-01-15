@@ -5,7 +5,8 @@
 
 .slider {
   border: 1px white solid;
-  padding: 10px;
+  padding: 2%;
+  margin: 2%;
   width: 500px;
   display: flex;
   flex-direction: column;

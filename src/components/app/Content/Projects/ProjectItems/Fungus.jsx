@@ -5,7 +5,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import builtInSliderStyles from 'react-awesome-slider/dist/styles.css';
 import projectStyles from '../../../../../styles/projectStyles.css';
 
-export default function Projects() {
+export default function Fungus() {
 
   const fungusSlider = (
     <AwesomeSlider cssModule={builtInSliderStyles}>

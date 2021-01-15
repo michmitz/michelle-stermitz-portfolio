@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import styles from '../../../../styles/styles.css';
 import Fungus from './ProjectItems/Fungus';
 import projectStyles from '../../../../styles/projectStyles.css';
+import TrulyTrivial from './ProjectItems/TrulyTrivial';
 
 export default function Projects() {
   return (
@@ -13,6 +14,7 @@ export default function Projects() {
       <header className={styles.contentHeader}>Past Projects</header>
       <div className={projectStyles.sliderDiv}>
         <Fungus />
+        <TrulyTrivial />
       </div>
     </FadeIn>
   );
