@@ -7,10 +7,13 @@ import styles from '../../../../styles/styles.css';
 export default function WorkTimeline() {
   return (
     <FadeIn transitionDuration={2000} className={styles.contentDiv}>
-      <div className={styles.contentDiv}>
-        <Link to="/" className={styles.returnLink}>Return</Link>
-        <header className={styles.contentHeader}>Resume & Work Timeline</header>
-      </div>
+      
+      <Link to="/" className={styles.returnLink}>Return</Link>
+  
+      <header className={styles.contentHeader}>Resume & Work Timeline</header>
+
+      <Link to="/files/michelle-stermitz-resume.pdf" target="_blank">View My Resume</Link>
+
     </FadeIn>
   );
 }
