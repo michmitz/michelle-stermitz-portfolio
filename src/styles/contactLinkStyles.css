@@ -5,6 +5,7 @@
 }
 
 .githubIcon {
+  border-radius: 50%;
   height: 15px;
   width: auto;
 }

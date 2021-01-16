@@ -174,7 +174,7 @@ exports[`App component renders App 1`] = `
                 <img
                   alt="/assets/github-logo-white.png"
                   class="githubIcon"
-                  src="/assets/github-logo-white.png"
+                  src="/assets/GitHub-Mark.png"
                 />
                 /michmitz
               </a>
@@ -186,7 +186,7 @@ exports[`App component renders App 1`] = `
                   class="icon"
                   src="/assets/linkedin-white.png"
                 />
-                LinkedIn
+                /in/michellestermitz
               </a>
               <a
                 href="https://twitter.com/michmitzpdx"
@@ -200,6 +200,29 @@ exports[`App component renders App 1`] = `
               </a>
             </div>
           </div>
+          <aside
+            aria-label="Scroll to top of page"
+            class="ScrollUpButton__Container "
+            data-testid="react-scroll-up-button"
+            role="button"
+            style="background-color: rgba(50, 50, 50, 0.5); height: 50px; position: fixed; bottom: 20px; width: 50px; transition: all 0.5s ease-in-out; transition-property: opacity, right; cursor: pointer; opacity: 0; right: -50px; z-index: 1000;"
+            tabindex="-1"
+          >
+            <svg
+              style="display: inline-block; width: 100%; height: 100%; stroke-width: 0; stroke: white; fill: white;"
+              version="1.1"
+              viewBox="0 0 32 32"
+              x="0"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              y="0"
+            >
+              <path
+                d="M19.196 23.429q0 0.232-0.179 0.411l-0.893 0.893q-0.179 0.179-0.411 0.179t-0.411-0.179l-7.018-7.018-7.018 7.018q-0.179 0.179-0.411 0.179t-0.411-0.179l-0.893-0.893q-0.179-0.179-0.179-0.411t0.179-0.411l8.321-8.321q0.179-0.179 0.411-0.179t0.411 0.179l8.321 8.321q0.179 0.179 0.179 0.411zM19.196 16.571q0 0.232-0.179 0.411l-0.893 0.893q-0.179 0.179-0.411 0.179t-0.411-0.179l-7.018-7.018-7.018 7.018q-0.179 0.179-0.411 0.179t-0.411-0.179l-0.893-0.893q-0.179-0.179-0.179-0.411t0.179-0.411l8.321-8.321q0.179-0.179 0.411-0.179t0.411 0.179l8.321 8.321q0.179 0.179 0.179 0.411z"
+                transform="scale(1.4) translate(1,-5)"
+              />
+            </svg>
+          </aside>
         </div>
       </div>
     </div>

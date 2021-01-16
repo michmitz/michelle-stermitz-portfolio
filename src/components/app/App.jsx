@@ -15,6 +15,7 @@ import WorkTimeline from './Content/WorkTimeline/WorkTimeline';
 import WorkingOn from './Content/WorkingOn/WorkingOn';
 import Collaborate from './Content/Collaborate/Collaborate';
 import FadeIn from 'react-fade-in';
+import ScrollUpButton from 'react-scroll-up-button';
 
 export default function App() {
   return ( 
@@ -57,6 +58,7 @@ export default function App() {
             </Switch>
           </Router>
           <Sidebar />
+          <ScrollUpButton />
         </div>
       </div>
     </FadeIn>
