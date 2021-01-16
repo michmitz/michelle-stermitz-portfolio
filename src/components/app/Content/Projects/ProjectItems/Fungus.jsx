@@ -25,8 +25,8 @@ export default function Fungus() {
     <div className={projectStyles.slider}>{fungusSlider}
       <h2 className={projectStyles.projectName}>FungusAmongUs</h2>
       <h3 className={projectStyles.tech}>Tech: JavaScript, HTML, CSS</h3>
-      <p>FungusAmongUs is an interactive, educational app that allows users to select a geographical region of Oregon and learn more about the mushrooms commonly found in that region. The user can then opt to "collect" that mushroom and add it to their mushroom basket for reference later.</p>
-      <p>FungusAmongUs was built in a four day sprint with JavaScript, HTML, and CSS. I heavily contributed to the app's functionality by navigating the setup of our JavaScript functions to render the mushrooms on each page.</p>
+      <p className={projectStyles.description}>FungusAmongUs is an interactive, educational app that allows users to select a geographical region of Oregon and learn more about the mushrooms commonly found in that region. The user can then opt to "collect" that mushroom and add it to their mushroom basket for reference later.</p>
+      <p className={projectStyles.description}>FungusAmongUs was built in a four day sprint with JavaScript, HTML, and CSS. I heavily contributed to the app's functionality by navigating the setup of our JavaScript functions to render the mushrooms on each page.</p>
     </div>
   );
 }

@@ -22,8 +22,8 @@ export default function Terminus() {
     <div className={projectStyles.slider}>{terminusSlider}
       <h2 className={projectStyles.projectName}>Terminus</h2>
       <h3 className={projectStyles.tech}>Tech: Node.js, PostgreSQL, Inquirer, SuperAgent, Chalk, Heroku</h3>
-      <p>To install, run command in your terminal (must have Node): npx terminus-game</p>
-      <p>Terminus is a fun, Halloween-themed choose-your-own-adventure game playable in your terminal. Built in a week-long sprint with a team of six, I heavily aided in debugging, troubleshooting, and wiring Inquirer to deliver this thrilling experience to the user.</p>
+      <p className={projectStyles.description}>To install, run command in your terminal (must have Node): npx terminus-game</p>
+      <p className={projectStyles.description}>Terminus is a fun, Halloween-themed choose-your-own-adventure game playable in your terminal. Built in a week-long sprint with a team of six, I heavily aided in debugging, troubleshooting, and wiring Inquirer to deliver this thrilling experience to the user.</p>
     </div>
   );
 }

@@ -22,8 +22,8 @@ export default function TrulyTrivial() {
     <div className={projectStyles.slider}>{trulyTrivialSlider}
       <h2 className={projectStyles.projectName}>Truly Trivial</h2>
       <h3 className={projectStyles.tech}>Tech: React, JavaScript, CSS</h3>
-      <p>Truly Trivial is a full-stack app that makes use of The Open Trivia DB to bring you a vintage gameshow experience! Featuring Bob Barker and the ability to bet on questions, you can either get rich or suffer the (satirical) consequences.</p>
-      <p>Truly Trivial was built in a week-long sprint with a team of four and utilizes JavaScript, React, and CSS. I heavily contributed to the functionality of the app, using React with JavaScript to manage bets, user choices and quiz results.</p>
+      <p className={projectStyles.description}>Truly Trivial is a full-stack app that makes use of The Open Trivia DB to bring you a vintage gameshow experience! Featuring Bob Barker and the ability to bet on questions, you can either get rich or suffer the (satirical) consequences.</p>
+      <p className={projectStyles.description}>Truly Trivial was built in a week-long sprint with a team of four and utilizes JavaScript, React, and CSS. I heavily contributed to the functionality of the app, using React with JavaScript to manage bets, user choices and quiz results.</p>
     </div>
   );
 }
