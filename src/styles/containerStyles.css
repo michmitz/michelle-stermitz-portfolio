@@ -1,6 +1,7 @@
 .appContainer {
   padding-top: 3%;
   min-height: 60em;
+
 }
 
 .contentAndSidebarDiv {
@@ -21,7 +22,7 @@
 
 .sidebarDiv {
   border-left: 1px solid var(--line);
-  padding: 0px 6px 0px 3px;
+  padding: 0px 8px 0px 3px;
   height: 28em;
 }
 

@@ -1,0 +1,62 @@
+.sliderDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.slider {
+  border: 1px var(--line) solid;
+  padding: 2%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderImage {
+  height: 300px;
+  width: 375px;
+}
+
+.projectName {
+  font-family: var(--headerFont);
+  font-weight: 300;
+  font-size: 1.3em;
+  text-decoration: none;
+  padding: 2%;
+}
+
+.tech {
+  margin-top: 7%;
+  font-family: var(--bodyFont);
+  font-weight: 300;
+  font-size: 0.85em;
+}
+
+.description {
+  font-family: var(--bodyFont);
+  font-size: .75em;
+  margin-bottom: 1px;
+}
+
+.githubLabel {
+  display: flex;
+  flex-direction: row;
+}
+
+.githubIcon {
+  height: 25px;
+  width: auto;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.lineDiv {
+  border-top: 1px solid var(--line);
+  margin: 2%;
+  width: 80%;
+}
+
+.githubLink {
+  font-size: .9em;
+}
