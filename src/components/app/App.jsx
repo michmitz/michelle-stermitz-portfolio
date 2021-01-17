@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import {
   BrowserRouter as Router,
@@ -15,7 +16,7 @@ import WorkTimeline from './Content/WorkTimeline/WorkTimeline';
 import WorkingOn from './Content/WorkingOn/WorkingOn';
 import Collaborate from './Content/Collaborate/Collaborate';
 import FadeIn from 'react-fade-in';
-import ScrollUpButton from 'react-scroll-up-button';
+import { TinyButton as ScrollUpButton } from 'react-scroll-up-button';
 
 export default function App() {
   return ( 
@@ -58,7 +59,7 @@ export default function App() {
             </Switch>
           </Router>
           <Sidebar />
-          <ScrollUpButton />
+          <ScrollUpButton style={{ background: 'transparent', outline: 'none' }} />
         </div>
       </div>
     </FadeIn>
