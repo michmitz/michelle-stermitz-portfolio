@@ -1,3 +1,176 @@
+
+.resumeDiv {
+  padding: 2vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--line);
+  width: 90%;
+}
+
 .timelineDiv {
-  padding-top: 6vh;
+  border: 1px var(--line) solid;
+  padding: 0vh 2vh 0vh 2vh;
+  width: 90%;
+}
+
+.skillsDiv {
+  padding: 2vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--line);
+}
+
+.timelineHeaderDiv {
+  padding: 2vh;
+  margin-top: 4vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-bottom: none;
+}
+
+.resumeLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--headerFont);
+  font-weight: 300;
+  text-decoration: none;
+  outline: none;
+  font-size: .9em;
+}
+
+.resumeSkillsTimelineDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clickMe {
+  border: 1px solid var(--line);
+  margin-top: 2px;
+  margin-bottom: 0;
+  font-size: .7em;
+  padding: 1vh;
+}
+
+.event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event h2 {
+  font-family: var(--headerFont);
+  font-weight: 400;
+  color: black;
+  font-size: 1em;
+  margin-bottom: -4%;
+}
+
+.event h3 {
+  font-family: var(--headerFont);
+  font-weight: 300;
+  color: black;
+  font-size: .8em;
+  padding-bottom: 4px;
+}
+
+.event p {
+  font-family: var(--bodyFont);
+  color: black;
+  font-weight: 200;
+  font-size: .7em;
+}
+
+.lineDiv {
+  border-top: 1px solid var(--line);
+  margin: 4%;
+  width: 90%;
+}
+
+.sectionTitle {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+.imageEvent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collapsibleDiv {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  font-size: .8em;
+  cursor: pointer;
+}
+
+.collapsible {
+  background-color: cyan;
+}
+
+.collapsibleContentInner {
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-top: 0;
+
+  p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.collapsibleTrigger {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: grey;
+  position: relative;
+  border: 1px solid white;
+  padding: 10px;
+  background: cyan;
+  color: white;
+
+  &:after {
+    font-family: 'Font Awesome 5 Free';
+    content: '\f107';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: block;
+    transition: transform 300ms;
+  }
+
+  &.is-open {
+    &:after {
+      transform: rotateZ(180deg);
+    }
+  }
+
+  &.is-disabled {
+    opacity: 0.5;
+    background-color: grey;
+  }
 }

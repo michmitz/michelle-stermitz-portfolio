@@ -1,7 +1,6 @@
 .appContainer {
   padding-top: 3%;
   min-height: 60em;
-
 }
 
 .contentAndSidebarDiv {
@@ -14,10 +13,14 @@
 .appContentDiv {
   display: flex;
   flex-direction: column;
-  line-height: 2.5em;
-  border: 1px solid white;
+  justify-content: center;
+  line-height: 1.5;
+  border: 1px solid var(--line);
   font-weight: 400;
-  padding: 6em;
+  font-size: 0.8em;
+  padding: 10vh;
+  height: 29vh;
+  width: 30vh;
 } 
 
 .sidebarDiv {

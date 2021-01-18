@@ -59,7 +59,7 @@ export default function App() {
             </Switch>
           </Router>
           <Sidebar />
-          <ScrollUpButton style={{ background: 'transparent', outline: 'none' }} />
+          <ScrollUpButton style={{ background: 'transparent', outline: 'none', fill: 'var(--text)', width: '27px', height: '27px' }} />
         </div>
       </div>
     </FadeIn>
