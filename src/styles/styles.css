@@ -12,6 +12,8 @@
   --text: white;
   --background: black;
   --line: white;
+
+  cursor: auto;
 }
 
 header {
