@@ -57,7 +57,7 @@ export default function Sounds() {
 
   return (
     <div className={sidebarStyles.soundsDiv}>
-      <h2>Relax with a sound.</h2>
+      <h2 className={sidebarStyles.soundsHeader}>Relax with a sound.</h2>
 
       <label>
         <input
@@ -110,7 +110,7 @@ export default function Sounds() {
           name="mute" 
           value="mute"
           onClick={handleMute} />
-            mute
+            stop
       </label>
     </div>
   );

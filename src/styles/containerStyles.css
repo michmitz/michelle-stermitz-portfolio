@@ -23,18 +23,8 @@
   width: 30vh;
 } 
 
-.sidebarDiv {
-  border-left: 1px solid var(--line);
-  padding: 0px 8px 0px 3px;
-  height: 28em;
-}
-
-.sidebarLine {
-  border-bottom: .5px solid var(--line);
-  max-width: 50%;
-}
-
 .headerLinks {
   font-size: 1.5em;
   text-decoration: none;
+  cursor: pointer;
 }

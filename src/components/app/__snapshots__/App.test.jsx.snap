@@ -57,7 +57,9 @@ exports[`App component renders App 1`] = `
             <div
               class="soundsDiv"
             >
-              <h2>
+              <h2
+                class="soundsHeader"
+              >
                 Relax with a sound.
               </h2>
               <label>
@@ -108,7 +110,7 @@ exports[`App component renders App 1`] = `
                   name="mute"
                   value="mute"
                 />
-                mute
+                stop
               </label>
             </div>
             <div
@@ -117,7 +119,9 @@ exports[`App component renders App 1`] = `
             <div
               class="colorSchemeDiv"
             >
-              <h2>
+              <h2
+                class="themeHeader"
+              >
                 Theme
               </h2>
               <label>
@@ -135,14 +139,6 @@ exports[`App component renders App 1`] = `
                   value="dark"
                 />
                 dark
-              </label>
-              <label>
-                <input
-                  name="color"
-                  type="radio"
-                  value="random"
-                />
-                random
               </label>
             </div>
             <div
@@ -164,11 +160,12 @@ exports[`App component renders App 1`] = `
                 <a
                   href="https://github.com/michmitz/michelle-stermitz-portfolio"
                 >
-                  source code.
+                  source code
                 </a>
-                 Thanks for visiting!
+                . Thanks for visiting!
               </p>
               <a
+                class="contactLink"
                 href="https://github.com/michmitz"
               >
                 <img
@@ -179,6 +176,7 @@ exports[`App component renders App 1`] = `
                 /michmitz
               </a>
               <a
+                class="contactLink"
                 href="https://linkedin.com/in/michellestermitz"
               >
                 <img
@@ -189,6 +187,7 @@ exports[`App component renders App 1`] = `
                 /in/michellestermitz
               </a>
               <a
+                class="contactLink"
                 href="https://twitter.com/michmitzpdx"
               >
                 <img
