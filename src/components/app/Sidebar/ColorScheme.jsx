@@ -33,23 +33,27 @@ export default function ColorScheme() {
     <div className={sidebarStyles.colorSchemeDiv}>
       <h2 className={sidebarStyles.themeHeader}>Theme</h2>
 
-      <label>
-        <input 
-          type="radio" 
-          name="color" 
-          value="light"
-          onChange={handleChange}  />
-            light
-      </label>
+      <div className={sidebarStyles.buttonsDiv}>
 
-      <label>
-        <input 
-          type="radio" 
-          name="color" 
-          value="dark"
-          onChange={handleChange}  />
+        <label>
+          <input 
+            type="radio" 
+            name="color" 
+            value="light"
+            onChange={handleChange}  />
+            light
+        </label>
+
+        <label>
+          <input 
+            type="radio" 
+            name="color" 
+            value="dark"
+            onChange={handleChange}  />
             dark
-      </label>
+        </label>
+
+      </div>
 
     </div>
   );

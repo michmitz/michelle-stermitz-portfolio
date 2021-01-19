@@ -57,60 +57,63 @@ export default function Sounds() {
     <div className={sidebarStyles.soundsDiv}>
       <h2 className={sidebarStyles.soundsHeader}>Relax with a sound.</h2>
 
-      <label>
-        <input
-          type="radio"
-          name="sound" 
-          value="fire"
-          onClick={handleClick} />
+      <div className={sidebarStyles.buttonsDiv}>
+        <label>
+          <input
+            type="radio"
+            name="sound" 
+            value="fire"
+            onClick={handleClick} />
             fire
-      </label>
+        </label>
 
-      <label>
-        <input
-          type="radio"
-          name="sound" 
-          value="stream"
-          onClick={handleClick} />
+        <label>
+          <input
+            type="radio"
+            name="sound" 
+            value="stream"
+            onClick={handleClick} />
             stream
-      </label>
+        </label>
 
-      <label>
-        <input 
-          type="radio"
-          name="sound" 
-          value="rain"
-          onClick={handleClick} />
+        <label>
+          <input 
+            type="radio"
+            name="sound" 
+            value="rain"
+            onClick={handleClick} />
             rain
-      </label>
+        </label>
 
-      <label>
-        <input  
-          type="radio"
-          name="sound" 
-          value="birds"
-          onClick={handleClick} />
+        <label>
+          <input  
+            type="radio"
+            name="sound" 
+            value="birds"
+            onClick={handleClick} />
             birds
-      </label>
+        </label>
 
-      <label>
-        <input
-          type="radio"
-          name="sound" 
-          value="waves"
-          onClick={handleClick} />
+        <label>
+          <input
+            type="radio"
+            name="sound" 
+            value="waves"
+            onClick={handleClick} />
             waves
-      </label>
+        </label>
 
-      <label className={sidebarStyles.muteLabel}>
-        <input
-          className={sidebarStyles.muteButton}
-          type="radio"
-          name="sound" 
-          value="stop"
-          onClick={handleClick} />
-        <p>stop</p>
-      </label>
+        <label className={sidebarStyles.muteLabel}>
+          <input
+            className={sidebarStyles.muteButton}
+            type="radio"
+            name="sound" 
+            value="stop"
+            onClick={handleClick} />
+          <p>stop</p>
+        </label>
+
+      </div>
     </div>
   );
 }
