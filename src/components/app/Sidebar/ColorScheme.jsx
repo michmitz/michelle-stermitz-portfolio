@@ -6,8 +6,9 @@ const randomColor = require('randomcolor');
 const handleChange = (e) => {
   const selectedColor = e.target.value;
 
+  /*
   const generatedColor = randomColor({ luminosity: 'dark' });
-  const generatedColor2 = randomColor({ luminosity: 'light' });
+  const generatedColor2 = randomColor({ luminosity: 'light' });*/
   
   if(selectedColor === 'light') {
     document.documentElement.style
@@ -23,13 +24,6 @@ const handleChange = (e) => {
       .setProperty('--background', 'black');
     document.documentElement.style
       .setProperty('--line', 'white');
-  } else if(selectedColor === 'random') {
-    document.documentElement.style
-      .setProperty('--text', generatedColor);
-    document.documentElement.style
-      .setProperty('--background', generatedColor2);
-    document.documentElement.style
-      .setProperty('--line', generatedColor);
   }
 };
 
@@ -37,34 +31,29 @@ const handleChange = (e) => {
 export default function ColorScheme() {
   return (
     <div className={sidebarStyles.colorSchemeDiv}>
-      <h2>Theme</h2>
+      <h2 className={sidebarStyles.themeHeader}>Theme</h2>
 
-      <label>
-        <input 
-          type="radio" 
-          name="color" 
-          value="light"
-          onChange={handleChange}  />
+      <div className={sidebarStyles.buttonsDiv}>
+
+        <label>
+          <input 
+            type="radio" 
+            name="color" 
+            value="light"
+            onChange={handleChange}  />
             light
-      </label>
+        </label>
 
-      <label>
-        <input 
-          type="radio" 
-          name="color" 
-          value="dark"
-          onChange={handleChange}  />
+        <label>
+          <input 
+            type="radio" 
+            name="color" 
+            value="dark"
+            onChange={handleChange}  />
             dark
-      </label>
+        </label>
 
-      <label>
-        <input 
-          type="radio" 
-          name="color" 
-          value="random"
-          onChange={handleChange} />
-            random
-      </label>
+      </div>
 
     </div>
   );

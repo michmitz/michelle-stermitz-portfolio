@@ -1,30 +1,84 @@
+.sidebarDiv {
+  border-left: 1px solid var(--line);
+  height: 60vh;
+  flex-direction: column;
+}
+
+.sidebarLineOne {
+  border-bottom: 1px solid var(--line);
+  max-width: 60%;
+}
+
+.sidebarLineTwo {
+  border-bottom: 1px solid var(--line);
+  max-width: 80%;
+}
+
 .colorSchemeDiv {
   line-height: 1em;
   font-weight: 100;
   font-family: var(--bodyFont);
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
+  margin-bottom: 7%;
+  font-size: .75em;
+  padding-left: 4%;
 }
 
 .soundsDiv {
-  font-size: .9em;
+  font-size: .75em;
   line-height: 1em;
   font-weight: 100;
   font-family: var(--bodyFont);
+  margin-bottom: 2%;
+  padding-left: 4%;
+  padding-bottom: 5%;
+  max-width: 16vh;
+}
+
+.buttonsDiv {
   display: flex;
   flex-direction: column;
-  margin-bottom: 8px;
+  justify-content: left;
+  margin-left: -2%;
+}
+
+.soundsHeader {
+  font-size: 1.1em;
+}
+
+.themeHeader {
+  font-size: 1em;
+  margin-bottom: 5%;
 }
 
 .muteButton {
-  background-color: white;
-  width: 16px;
-  height: 16px;
-  margin: 6px 4px 0px 4px;
+  opacity: 0;
 }
 
 .muteLabel {
-  font-size: 1.2em;
+  display: flex;
+  background-color: var(--background);
+  border: 1px solid var(--line);
+  outline: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  font-size: 1em;
   font-weight: 300;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+
+.muteLabel p {
+  margin-top: 0;
+  margin-left: -40%;
+}
+
+input {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }

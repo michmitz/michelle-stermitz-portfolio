@@ -1,29 +1,40 @@
 .icon {
+  border-radius: 5px;
   height: 15px;
   width: auto;
-  padding: 0px 4px 0px 3px;
+  margin-right: 2%;
 }
 
 .githubIcon {
-  border-radius: 50%;
-  height: 15px;
+  border: solid 1px var(--line);
+  border-radius: 5px;
+  height: 13px;
   width: auto;
+  margin-right: 2%;
 }
 
 .contactDiv {
   display: flex;
   flex-direction: column;
-  margin-top: 3px;
-  margin-bottom: 5px;
-  max-width: 150px;
+  max-width: 25vh;
+  padding-left: 4%;
 }
 
 a {
   color: var(--text);
   font-weight: 200;
+  cursor: pointer;
 }
 
 .disclaimer {
-  font-size: 12px;
+  font-size: .65em;
   font-weight: 300;
+  max-width: 90%;
+}
+
+.contactLink {
+  display: flex;
+  margin: 2%;
+  font-size: .6em;
+  text-decoration: none;
 }
