@@ -47,10 +47,6 @@ export default function WorkTimeline() {
 
   const handleLanguages = () => {
     languagesOpen ? setLanguagesOpen(false) : setLanguagesOpen(true);
-    setFrameworksOpen(false);
-    setBackendOpen(false);
-    setToolsOpen(false);
-    setTestingOpen(false);
   };
   
   const handleFrameworks = () => {
