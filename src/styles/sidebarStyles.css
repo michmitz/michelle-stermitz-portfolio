@@ -1,15 +1,20 @@
 .sidebarDiv {
   border-left: 1px solid var(--line);
-  height: 55vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: left;
 }
 
-.sidebarLine {
+.sidebarLineOne {
   border-bottom: 1px solid var(--line);
   max-width: 60%;
+}
+
+.sidebarLineTwo {
+  border-bottom: 1px solid var(--line);
+  max-width: 80%;
 }
 
 .colorSchemeDiv {
@@ -33,6 +38,7 @@
   align-items: left;
   margin-bottom: 7%;
   padding-left: 4%;
+  max-width: 16vh;
 }
 
 .soundsHeader {
@@ -40,20 +46,37 @@
 }
 
 .themeHeader {
-  font-size: 1.1em;
+  font-size: 1em;
   margin-bottom: 5%;
 }
 
 .muteButton {
-  background-color: var(--background);
-  border: 1px solid var(--line);
-  outline: none;
-  width: 13px;
-  height: 13px;
-  margin: 4% 3% 0 4%;
+  opacity: 0;
 }
 
 .muteLabel {
+  display: flex;
+  background-color: var(--background);
+  border: 1px solid var(--line);
+  outline: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
   font-size: 1em;
   font-weight: 300;
+  margin-left: 4%;
+  margin-top: 4%;
+}
+
+.muteLabel p {
+  margin-top: 0;
+  margin-left: -40%;
+}
+
+input {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }

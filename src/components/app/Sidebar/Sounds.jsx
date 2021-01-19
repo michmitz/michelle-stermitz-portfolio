@@ -46,13 +46,11 @@ export default function Sounds() {
       playBirds();
     } else if(selectedSound === 'waves') {
       playWaves();
+    } else if(selectedSound === 'stop') {
+      soundOptions.forEach(sound => {
+        sound.stop();
+      });
     }
-  };
-
-  const handleMute = () => {
-    soundOptions.forEach(sound => {
-      sound.stop();
-    });
   };
 
   return (
@@ -105,12 +103,13 @@ export default function Sounds() {
       </label>
 
       <label className={sidebarStyles.muteLabel}>
-        <button
+        <input
           className={sidebarStyles.muteButton}
-          name="mute" 
-          value="mute"
-          onClick={handleMute} />
-            stop
+          type="radio"
+          name="sound" 
+          value="stop"
+          onClick={handleClick} />
+        <p>stop</p>
       </label>
     </div>
   );
