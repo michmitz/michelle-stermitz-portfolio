@@ -1,5 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
+import { useState } from 'react';
 import FadeIn from 'react-fade-in';
 import { Link } from 'react-router-dom';
 import styles from '../../../../styles/styles.css';
@@ -14,7 +15,6 @@ import {
   themes,
   createTheme
 } from '@merc/react-timeline';
-import Collapsible from 'react-collapsible';
 
 const customTheme = createTheme(themes.default, {
   card: {
@@ -39,6 +39,36 @@ const customTheme = createTheme(themes.default, {
 });
 
 export default function WorkTimeline() {
+  const [languagesOpen, setLanguagesOpen] = useState(false);
+  const [frameworksOpen, setFrameworksOpen] = useState(false);
+  const [backendOpen, setBackendOpen] = useState(false);
+  const [toolsOpen, setToolsOpen] = useState(false);
+  const [testingOpen, setTestingOpen] = useState(false);
+
+  const handleLanguages = () => {
+    languagesOpen ? setLanguagesOpen(false) : setLanguagesOpen(true);
+    setFrameworksOpen(false);
+    setBackendOpen(false);
+    setToolsOpen(false);
+    setTestingOpen(false);
+  };
+  
+  const handleFrameworks = () => {
+    frameworksOpen ? setFrameworksOpen(false) : setFrameworksOpen(true);
+  };
+
+  const handleBackend = () => {
+    backendOpen ? setBackendOpen(false) : setBackendOpen(true);
+  };
+
+  const handleTools = () => {
+    toolsOpen ? setToolsOpen(false) : setToolsOpen(true);
+  };
+
+  const handleTesting = () => {
+    testingOpen ? setTestingOpen(false) : setTestingOpen(true);
+  };
+
   return (
     <FadeIn transitionDuration={2000} className={styles.contentDiv}>
       
@@ -59,41 +89,48 @@ export default function WorkTimeline() {
           <h2 className={timelineStyles.sectionTitle}>Tech Stack</h2>
           
           <div className={timelineStyles.collapsibleDiv}>
-            <Collapsible className={timelineStyles.collapsible} contentInnerClassName={timelineStyles.collapsibleContentInner}
-              triggerClassName={timelineStyles.collapsibleTrigger}
-              contentOuterClassName={timelineStyles.collapbsibleContentOuter}
-              transitionTime={200} trigger="Languages">
-              <p>JavaScript</p>
-              <p>TypeScript</p>
-              <p>HTML</p>
-              <p>CSS</p>
-            </Collapsible>
+            <div onClick={handleLanguages}>Languages
+              <div className={ languagesOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <p>JavaScript</p>
+                <p>TypeScript</p>
+                <p>HTML</p>
+                <p>CSS</p>
+              </div>
+            </div>
 
-            <Collapsible trigger="Frameworks">
-              <p>React</p>
-              <p>Redux</p>
-            </Collapsible>
+            <div onClick={handleFrameworks}>Frameworks
+              <div className={ frameworksOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <p>React</p>
+                <p>Redux</p>
+              </div>
+            </div>
 
-            <Collapsible trigger="Back-End">
-              <p>Node.js</p>
-              <p>Express</p>
-              <p>PostgreSQL</p>
-              <p>Sequelize</p>
-              <p>Redis</p>
-              <p>Bcrypt</p>
-            </Collapsible>
+            <div onClick={handleBackend}>Backend
+              <div className={ backendOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <p>Node.js</p>
+                <p>Express</p>
+                <p>PostgreSQL</p>
+                <p>Sequelize</p>
+                <p>Redis</p>
+                <p>Bcrypt</p>
+              </div>
+            </div>
 
-            <Collapsible trigger="Tools">
-              <p>Heroku</p>
-              <p>Netlify</p>
-              <p>Slack</p>
-              <p>Github</p>
-            </Collapsible>
+            <div onClick={handleTools}>Tools
+              <div className={ toolsOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <p>Heroku</p>
+                <p>Netlify</p>
+                <p>Slack</p>
+                <p>Github</p>
+              </div>
+            </div>
 
-            <Collapsible trigger="Testing">
-              <p>Jest</p>
-              <p>Qunit</p>
-            </Collapsible>
+            <div onClick={handleTesting}>Testing
+              <div className={ testingOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden } >
+                <p>Jest</p>
+                <p>Qunit</p>
+              </div>
+            </div>
           </div>
         </div>
 
