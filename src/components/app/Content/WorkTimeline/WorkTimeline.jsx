@@ -85,48 +85,48 @@ export default function WorkTimeline() {
           <h2 className={timelineStyles.sectionTitle}>Tech Stack</h2>
           
           <div className={timelineStyles.collapsibleDiv}>
-            <div onClick={handleLanguages}>Languages
-              <div className={ languagesOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
-                <p>JavaScript</p>
-                <p>TypeScript</p>
-                <p>HTML</p>
-                <p>CSS</p>
-              </div>
-            </div>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleLanguages}>Languages
+              <ol className={ languagesOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ol>
+            </header>
 
-            <div onClick={handleFrameworks}>Frameworks
-              <div className={ frameworksOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
-                <p>React</p>
-                <p>Redux</p>
-              </div>
-            </div>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleFrameworks}>Frameworks
+              <ol className={ frameworksOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <li>React</li>
+                <li>Redux</li>
+              </ol>
+            </header>
 
-            <div onClick={handleBackend}>Backend
-              <div className={ backendOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
-                <p>Node.js</p>
-                <p>Express</p>
-                <p>PostgreSQL</p>
-                <p>Sequelize</p>
-                <p>Redis</p>
-                <p>Bcrypt</p>
-              </div>
-            </div>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleBackend}>Backend
+              <ol className={ backendOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>PostgreSQL</li>
+                <li>Sequelize</li>
+                <li>Redis</li>
+                <li>Bcrypt</li>
+              </ol>
+            </header>
 
-            <div onClick={handleTools}>Tools
-              <div className={ toolsOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
-                <p>Heroku</p>
-                <p>Netlify</p>
-                <p>Slack</p>
-                <p>Github</p>
-              </div>
-            </div>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleTools}>Tools
+              <ol className={ toolsOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <li>Heroku</li>
+                <li>Netlify</li>
+                <li>Slack</li>
+                <li>Github</li>
+              </ol>
+            </header>
 
-            <div onClick={handleTesting}>Testing
-              <div className={ testingOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden } >
-                <p>Jest</p>
-                <p>Qunit</p>
-              </div>
-            </div>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleTesting}>Testing
+              <ol className={ testingOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden } >
+                <li>Jest</li>
+                <li>Qunit</li>
+              </ol>
+            </header>
           </div>
         </div>
 
