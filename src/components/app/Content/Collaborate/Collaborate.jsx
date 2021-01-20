@@ -17,7 +17,7 @@ export default function Collaborate() {
           name="contact-form"
           method="POST"
         >
-          <input type="hidden" name="form-name" value="websiteForm" action="/success" />
+          <input type="hidden" name="form-name" value="contact-form" action="/success" />
 
           <label className={collaborateStyles.formLabel}>
             <input
