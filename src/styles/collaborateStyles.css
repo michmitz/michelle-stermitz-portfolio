@@ -1,0 +1,17 @@
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--line);
+  padding: 2vh;
+  margin-bottom: 5vh;
+  width: 90%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+}
+
