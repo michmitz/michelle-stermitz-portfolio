@@ -1,17 +1,61 @@
-.formDiv {
+.formDiv, .form, .lilHeaderDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.formDiv {
   border: 1px solid var(--line);
-  padding: 2vh;
-  margin-bottom: 5vh;
-  width: 90%;
+  margin-bottom: 2vh;
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
-  width: 50vh;
+  width: 80%;
+  margin: 4%;
 }
 
+.lilHeader {
+  font-family: var(--bodyFont);
+  font-size: .8em;
+  font-weight: 200;
+  width: 80%;
+}
+
+.lilHeaderDiv {
+  border-bottom: 1px solid var(--line);
+  width: 100%;
+  text-align: center;
+}
+
+.inputs, .message, .sendButton {
+  background-color: var(--background);
+  border: solid 1px var(--line);
+  margin: 3%;
+}
+
+.inputs, .message {
+  font-family: var(--bodyFont);
+  color: var(--text);
+  font-size: .7em;
+  padding: 2%;
+}
+
+.inputs {
+  width: 30%;
+}
+
+.message {
+  width: 75%;
+  height: 18vh;
+}
+
+.sendButton {
+  color: var(--text);
+  min-width: 15%;
+  border: 2px solid var(--text);
+  font-family: var(--headerFont);
+  font-size: .8em;
+  font-weight: 500;
+  padding: 1%;
+}
