@@ -146,7 +146,7 @@ export default function WorkTimeline() {
 
                 <TextEvent className={timelineStyles.event} date="2019-2020" text="<h2>Powell's City of Books</h2>
                 <h3>Portland, OR</h3>
-                <p>Working in the inventory department at Powell's was a dream job!</p>" />
+                <p>Working in the inventory department at Powell's was a dream job! I got laid off due to the pandemic, but it allowed me to attend Alchemy.</p>" />
 
                 <TextEvent className={timelineStyles.event} date="2017-2019" text="<h2>Freelance Graphic Design, Personal Assistant</h2>
                 <h3>Remote, Los Angeles, CA, and Missoula, MT</h3>
@@ -156,7 +156,7 @@ export default function WorkTimeline() {
                   date="2013-2017"
                   text="<h2>Manager, Graphic Designer</h2>
                   <h3>Stensrud Playhouse</h3>
-                  <p>I moved to Montana to help open this entertainment venue, where we put on murder mystery dinner theater and sketch comedy shows in a beautiful historic building.</p>"
+                  <p>I moved to Montana to help open this entertainment venue, where we put on murder mystery dinner theater and sketch comedy shows in The Stensrud - a beautiful 1894 building on the historic register.</p>"
                   src="/assets/timeline/stensrud.png"
                   alt="Stensrud Playhouse"
                 >
@@ -164,7 +164,7 @@ export default function WorkTimeline() {
 
                 <TextEvent className={timelineStyles.event} date="2012-2013" text="<h2>Makeup Artist</h2>
                 <h3>Los Angeles, CA</h3>
-                <p>I graduated from Makeup Designory, an intensive makeup artistry program, and I still love to do makeup!</p>" />
+                <p>I graduated from The Makeup Designory, an intensive makeup artistry program for film and tv. Makeup is one of my numerous creative outlets.</p>" />
 
                 <TextEvent className={timelineStyles.event} date="2010-2011" text="<h2>Santa Monica College</h2>
                 <h3>Santa Monica, CA</h3>
