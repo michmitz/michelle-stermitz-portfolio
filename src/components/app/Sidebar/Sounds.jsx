@@ -13,7 +13,7 @@ export default function Sounds() {
   const options = {
     loop: true,
     volume: 0.5,
-    preload: true
+    html5: true
   };
 
   const [playFire, fireOptions] = useSound(fire, options);
