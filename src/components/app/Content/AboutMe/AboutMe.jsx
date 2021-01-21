@@ -3,7 +3,7 @@ import React from 'react';
 import FadeIn from 'react-fade-in';
 import { Link } from 'react-router-dom';
 import styles from '../../../../styles/styles.css';
-import aboutMeStyles from './AboutMeStyles.css';
+import aboutMeStyles from '../../../../styles/aboutMeStyles.css';
 
 export default function AboutMe() {
   return (
