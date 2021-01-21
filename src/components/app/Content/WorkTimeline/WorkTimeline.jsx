@@ -85,48 +85,48 @@ export default function WorkTimeline() {
           <h2 className={timelineStyles.sectionTitle}>Tech Stack</h2>
           
           <div className={timelineStyles.collapsibleDiv}>
-            <div onClick={handleLanguages}>Languages
-              <div className={ languagesOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
-                <p>JavaScript</p>
-                <p>TypeScript</p>
-                <p>HTML</p>
-                <p>CSS</p>
-              </div>
-            </div>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleLanguages}>Languages
+              <ol className={ languagesOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ol>
+            </header>
 
-            <div onClick={handleFrameworks}>Frameworks
-              <div className={ frameworksOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
-                <p>React</p>
-                <p>Redux</p>
-              </div>
-            </div>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleFrameworks}>Frameworks
+              <ol className={ frameworksOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <li>React</li>
+                <li>Redux</li>
+              </ol>
+            </header>
 
-            <div onClick={handleBackend}>Backend
-              <div className={ backendOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
-                <p>Node.js</p>
-                <p>Express</p>
-                <p>PostgreSQL</p>
-                <p>Sequelize</p>
-                <p>Redis</p>
-                <p>Bcrypt</p>
-              </div>
-            </div>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleBackend}>Backend
+              <ol className={ backendOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>PostgreSQL</li>
+                <li>Sequelize</li>
+                <li>Redis</li>
+                <li>Bcrypt</li>
+              </ol>
+            </header>
 
-            <div onClick={handleTools}>Tools
-              <div className={ toolsOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
-                <p>Heroku</p>
-                <p>Netlify</p>
-                <p>Slack</p>
-                <p>Github</p>
-              </div>
-            </div>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleTools}>Tools
+              <ol className={ toolsOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+                <li>Heroku</li>
+                <li>Netlify</li>
+                <li>Slack</li>
+                <li>Github</li>
+              </ol>
+            </header>
 
-            <div onClick={handleTesting}>Testing
-              <div className={ testingOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden } >
-                <p>Jest</p>
-                <p>Qunit</p>
-              </div>
-            </div>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleTesting}>Testing
+              <ol className={ testingOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden } >
+                <li>Jest</li>
+                <li>Qunit</li>
+              </ol>
+            </header>
           </div>
         </div>
 
@@ -146,7 +146,7 @@ export default function WorkTimeline() {
 
                 <TextEvent className={timelineStyles.event} date="2019-2020" text="<h2>Powell's City of Books</h2>
                 <h3>Portland, OR</h3>
-                <p>Working in the inventory department at Powell's was a dream job!</p>" />
+                <p>Working in the inventory department at Powell's was a dream job! I got laid off due to the pandemic, but it allowed me to attend Alchemy.</p>" />
 
                 <TextEvent className={timelineStyles.event} date="2017-2019" text="<h2>Freelance Graphic Design, Personal Assistant</h2>
                 <h3>Remote, Los Angeles, CA, and Missoula, MT</h3>
@@ -156,7 +156,7 @@ export default function WorkTimeline() {
                   date="2013-2017"
                   text="<h2>Manager, Graphic Designer</h2>
                   <h3>Stensrud Playhouse</h3>
-                  <p>I moved to Montana to help open this entertainment venue, where we put on murder mystery dinner theater and sketch comedy shows in a beautiful historic building.</p>"
+                  <p>I moved to Montana to help open this entertainment venue, where we put on murder mystery dinner theater and sketch comedy shows in The Stensrud - a beautiful 1894 building on the historic register.</p>"
                   src="/assets/timeline/stensrud.png"
                   alt="Stensrud Playhouse"
                 >
@@ -164,7 +164,7 @@ export default function WorkTimeline() {
 
                 <TextEvent className={timelineStyles.event} date="2012-2013" text="<h2>Makeup Artist</h2>
                 <h3>Los Angeles, CA</h3>
-                <p>I graduated from Makeup Designory, an intensive makeup artistry program, and I still love to do makeup!</p>" />
+                <p>I graduated from The Makeup Designory, an intensive makeup artistry program for film and tv. Makeup is one of my numerous creative outlets.</p>" />
 
                 <TextEvent className={timelineStyles.event} date="2010-2011" text="<h2>Santa Monica College</h2>
                 <h3>Santa Monica, CA</h3>

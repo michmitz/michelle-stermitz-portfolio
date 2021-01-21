@@ -12,7 +12,8 @@ import sidebarStyles from '../../../styles/sidebarStyles.css';
 export default function Sounds() {
   const options = {
     loop: true,
-    volume: 0.5
+    volume: 0.5,
+    html5: true
   };
 
   const [playFire, fireOptions] = useSound(fire, options);

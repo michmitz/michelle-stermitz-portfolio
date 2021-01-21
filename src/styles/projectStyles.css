@@ -14,8 +14,8 @@
 }
 
 .sliderImage {
-  height: 300px;
-  width: 375px;
+  height: 38vh;
+  width: auto;
 }
 
 .projectName {
@@ -27,7 +27,7 @@
 }
 
 .tech {
-  margin-top: 7%;
+  margin-top: 10%;
   font-family: var(--bodyFont);
   font-weight: 300;
   font-size: 0.85em;

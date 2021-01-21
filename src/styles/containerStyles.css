@@ -1,6 +1,6 @@
 .appContainer {
-  padding-top: 3%;
-  min-height: 60em;
+  padding-top: 5%;
+  min-height: 120vh;
 }
 
 .contentAndSidebarDiv {
@@ -17,14 +17,13 @@
   line-height: 1.5;
   border: 1px solid var(--line);
   font-weight: 400;
-  font-size: 0.8em;
   padding: 10vh;
   height: 29vh;
-  width: 30vh;
+  width: 29vh;
 } 
 
 .headerLinks {
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
   cursor: pointer;
 }

@@ -46,6 +46,7 @@ h2 {
   padding: 4%;
   max-width: 55%;
   border: 1px var(--line) solid;
+  margin-bottom: 5%;
 }
 
 .contentHeader {
