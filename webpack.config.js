@@ -21,7 +21,8 @@ module.exports = {
   },
   devServer: {
     port: 7891,
-    historyApiFallback: true
+    historyApiFallback: true,
+    publicPath: '/'
   },
   plugins: [
     new HtmlPlugin({ template: './src/index.html' }),
