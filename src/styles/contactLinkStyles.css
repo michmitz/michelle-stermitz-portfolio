@@ -17,6 +17,12 @@
   }      
 }
 
+@media all and (max-height: 500px) {
+  .disclaimer {
+    min-width: 100px;
+  }
+}
+
 .icon {
   border-radius: 5px;
   height: 15px;
