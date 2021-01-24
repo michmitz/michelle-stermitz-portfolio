@@ -8,7 +8,7 @@ import projectStyles from '../../../../../styles/projectStyles.css';
 export default function Fungus() {
 
   const fungusSlider = (
-    <AwesomeSlider cssModule={builtInSliderStyles}>
+    <AwesomeSlider cssModule={builtInSliderStyles} className={projectStyles.awesomeSlider}>
       <div>
         <img src={'/assets/project-images/fungus-1.png'} className={projectStyles.sliderImage} alt="FungusAmongUs-front-page"/>
       </div>
