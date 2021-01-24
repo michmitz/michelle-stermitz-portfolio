@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media all and (max-width: 700px) {
   .sidebarDiv {
     display: flex;
     flex-direction: column;
@@ -41,6 +41,11 @@
 
   .sidebarLineOne, .sidebarLineTwo {
     min-width: 100%;
+  }
+
+  .muteLabel {
+    min-width: 12px;
+    min-height: 12px;
   }
 }
 

@@ -12,7 +12,7 @@ export default function AboutMe() {
       <header className={styles.contentHeader}>About Me</header>
       <div className={aboutMeStyles.descriptionAndImage}>
         
-        <img src={'/assets/portrait.png'} className={aboutMeStyles.portrait}/>
+        <img src={'/assets/portrait.png'} alt="michelle-portrait" className={aboutMeStyles.portrait}/>
         
         <div className={aboutMeStyles.descriptionDiv}>
           <p className={aboutMeStyles.description}>I am a full-stack software developer, collaborator and creator with experience in React, JavaScript, PostgreSQL, and test-driven development. As a logic enthusiast with a background in design, I love to contribute to the processes that drive an application while dreaming about style possibilities (always starting with fonts). I am forever seeking opportunities to collaborate with diverse groups, as I find immense satisfaction in working towards a common goal and having fun on the way there.</p>
