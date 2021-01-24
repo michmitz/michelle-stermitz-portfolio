@@ -16,6 +16,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
     min-height: 130vh;
     max-width: 350px;
   }
@@ -29,7 +30,7 @@
 
   .appContentDiv {
     margin: auto;
-    margin-right: auto;
+    margin-right: 0;
     padding: 2%;
     min-width: 150px;
     min-height: 150px;
@@ -57,7 +58,6 @@
   padding: 10vh;
   height: 29vh;
   width: 29vh;
-  margin-right: 5%;
 } 
 
 .headerLinks {
