@@ -10,10 +10,10 @@ export default function AMAzine() {
   const amazineSlider = (
     <AwesomeSlider cssModule={builtInSliderStyles}>
       <div>
-        <img src={'/assets/project-images/amazine-1.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/amazine-1.png'} className={projectStyles.sliderImage} alt="amazine-project-front-page"/>
       </div>
       <div>
-        <img src={'/assets/project-images/amazine-2.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/amazine-2.png'} className={projectStyles.sliderImage} alt="amazine-project-thread-page"/>
       </div>
     </AwesomeSlider>
   );
@@ -32,7 +32,7 @@ export default function AMAzine() {
       <div className={projectStyles.lineDiv} />
 
       <label className={projectStyles.githubLabel}>
-        <img className={projectStyles.githubIcon} src={'/assets/GitHub-Mark.png'} />
+        <img className={projectStyles.githubIcon} src={'/assets/github-white.png'} alt="github-logo" />
         <a href="https://github.com/AMA-Zine" className={projectStyles.githubLink}>Source Code</a>
       </label>
 

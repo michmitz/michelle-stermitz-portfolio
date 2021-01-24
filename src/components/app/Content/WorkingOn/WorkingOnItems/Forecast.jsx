@@ -10,10 +10,10 @@ export default function Forecast() {
   const forecastSlider = (
     <AwesomeSlider cssModule={builtInSliderStyles}>
       <div>
-        <img src={'/assets/project-images/forecast-1.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/forecast-1.png'} className={projectStyles.sliderImage} alt="forecast-1"/>
       </div>
       <div>
-        <img src={'/assets/project-images/forecast-2.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/forecast-2.png'} className={projectStyles.sliderImage} alt="forecast-2"/>
       </div>
     </AwesomeSlider>
   );
@@ -31,7 +31,7 @@ export default function Forecast() {
       <div className={projectStyles.lineDiv} />
 
       <label className={projectStyles.githubLabel}>
-        <img className={projectStyles.githubIcon} src={'/assets/GitHub-Mark.png'} />
+        <img className={projectStyles.githubIcon} src={'/assets/github-white.png'} alt="github-logo"/>
         <a href="https://github.com/michmitz/weather-redux" className={projectStyles.githubLink}>Source Code</a>
       </label>
 
