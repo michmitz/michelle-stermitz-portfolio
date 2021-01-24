@@ -8,7 +8,7 @@ import projectStyles from '../../../../../styles/projectStyles.css';
 export default function AMAzine() {
 
   const amazineSlider = (
-    <AwesomeSlider cssModule={builtInSliderStyles}>
+    <AwesomeSlider cssModule={builtInSliderStyles} className={projectStyles.awesomeSlider}>
       <div>
         <img src={'/assets/project-images/amazine-1.png'} className={projectStyles.sliderImage} alt="amazine-project-front-page"/>
       </div>

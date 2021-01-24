@@ -4,8 +4,13 @@
     min-height: 150px;
     width: auto;
   }
-}
 
+  .awesomeSlider {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background: transparent;
+  }
+}
 
 .sliderDiv {
   display: flex;
