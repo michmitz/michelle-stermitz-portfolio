@@ -8,12 +8,12 @@ import projectStyles from '../../../../../styles/projectStyles.css';
 export default function Terminus() {
 
   const terminusSlider = (
-    <AwesomeSlider cssModule={builtInSliderStyles}>
+    <AwesomeSlider cssModule={builtInSliderStyles} className={projectStyles.awesomeSlider}>
       <div>
-        <img src={'/assets/project-images/terminus-1.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/terminus-1.png'} className={projectStyles.sliderImage} alt="terminus-sign-up-page"/>
       </div>
       <div>
-        <img src={'/assets/project-images/terminus-2.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/terminus-2.png'} className={projectStyles.sliderImage} alt="terminus-story-page"/>
       </div>
     </AwesomeSlider>
   );
@@ -33,7 +33,7 @@ export default function Terminus() {
       <div className={projectStyles.lineDiv} />
 
       <label className={projectStyles.githubLabel}>
-        <img className={projectStyles.githubIcon} src={'/assets/GitHub-Mark.png'} />
+        <img className={projectStyles.githubIcon} src={'/assets/github-white.png'} alt="github-logo" />
         <a href="https://github.com/Team-Formerly-Known-As-Mega-Calendar" className={projectStyles.githubLink}>Source Code</a>
       </label>
     </div>

@@ -8,12 +8,12 @@ import projectStyles from '../../../../../styles/projectStyles.css';
 export default function TrulyTrivial() {
 
   const trulyTrivialSlider = (
-    <AwesomeSlider cssModule={builtInSliderStyles}>
+    <AwesomeSlider cssModule={builtInSliderStyles} className={projectStyles.awesomeSlider}>
       <div>
-        <img src={'/assets/project-images/truly-trivial-1.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/truly-trivial-1.png'} className={projectStyles.sliderImage} alt="truly-trivial-login-page"/>
       </div>
       <div>
-        <img src={'/assets/project-images/truly-trivial-2.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/truly-trivial-2.png'} className={projectStyles.sliderImage} alt="truly-trivial-favorites-page"/>
       </div>
     </AwesomeSlider>
   );
@@ -32,7 +32,7 @@ export default function TrulyTrivial() {
       <div className={projectStyles.lineDiv} />
 
       <label className={projectStyles.githubLabel}>
-        <img className={projectStyles.githubIcon} src={'/assets/GitHub-Mark.png'} />
+        <img className={projectStyles.githubIcon} src={'/assets/github-white.png'} alt="github-logo" />
         <a href="https://github.com/Truly-Trivial" className={projectStyles.githubLink}>Source Code</a>
       </label>
 

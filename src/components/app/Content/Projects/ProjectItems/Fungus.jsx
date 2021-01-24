@@ -8,15 +8,15 @@ import projectStyles from '../../../../../styles/projectStyles.css';
 export default function Fungus() {
 
   const fungusSlider = (
-    <AwesomeSlider cssModule={builtInSliderStyles}>
+    <AwesomeSlider cssModule={builtInSliderStyles} className={projectStyles.awesomeSlider}>
       <div>
-        <img src={'/assets/project-images/fungus-1.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/fungus-1.png'} className={projectStyles.sliderImage} alt="FungusAmongUs-front-page"/>
       </div>
       <div>
-        <img src={'/assets/project-images/fungus-2.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/fungus-2.png'} className={projectStyles.sliderImage} alt="FungusAmongUs-map-page"/>
       </div>
       <div>
-        <img src={'/assets/project-images/fungus-3.png'} className={projectStyles.sliderImage}/>
+        <img src={'/assets/project-images/fungus-3.png'} className={projectStyles.sliderImage} alt="FungusAmongUs-mushroom-page"/>
       </div>
     </AwesomeSlider>
   );
@@ -36,7 +36,7 @@ export default function Fungus() {
       <div className={projectStyles.lineDiv} />
 
       <label className={projectStyles.githubLabel}>
-        <img className={projectStyles.githubIcon} src={'/assets/GitHub-Mark.png'} />
+        <img className={projectStyles.githubIcon} src={'/assets/github-white.png'} />
         <a href="https://github.com/The-Fun-Guys/FungusAmongUs" className={projectStyles.githubLink}>Source Code</a>
       </label>
 

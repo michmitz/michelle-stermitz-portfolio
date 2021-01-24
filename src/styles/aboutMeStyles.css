@@ -1,6 +1,6 @@
 .portrait {
-  width: 35vh;
-  height: 35vh;
+  width: 25vh;
+  height: 25vh;
   border-radius: 50%;
   padding: 5%;
 }
@@ -8,11 +8,8 @@
 .descriptionAndImage {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   border: 1px solid var(--line);
-  width: 90%;
-  padding: 4vh;
 }
 
 .descriptionDiv {
