@@ -14,10 +14,10 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: auto;
-    min-height: 130vh;
+    min-height: 750px;
     max-width: 350px;
   }
 
@@ -30,10 +30,18 @@
 
   .appContentDiv {
     margin: auto;
-    margin-right: 0;
+    margin-right: auto;
     padding: 2%;
     min-width: 150px;
     min-height: 150px;
+  }
+}
+
+@media all and (max-height: 500px) and (min-width: 700px) {
+  .appContentDiv {
+    padding: 20%;
+    min-width: 200px;
+    min-height: 200px;
   }
 }
 
