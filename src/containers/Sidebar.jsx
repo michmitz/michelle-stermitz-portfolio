@@ -8,10 +8,12 @@ import sidebarStyles from '../styles/sidebarStyles.css';
 export default function Sidebar() {
   return (
     <div className={sidebarStyles.sidebarDiv}>
-      <Sounds />
-      <div className={sidebarStyles.sidebarLineOne} />
-      <ColorScheme />
-      <div className={sidebarStyles.sidebarLineTwo} />
+      <div className={sidebarStyles.soundsAndThemeDiv}>
+        <Sounds />
+        <div className={sidebarStyles.sidebarLineOne} />
+        <ColorScheme />
+        <div className={sidebarStyles.sidebarLineTwo} />
+      </div>
       <ContactLinks />
     </div>
   );

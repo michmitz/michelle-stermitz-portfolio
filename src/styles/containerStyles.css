@@ -1,3 +1,42 @@
+@media all and (max-width: 700px) {
+  header {
+    text-align: center;
+  }
+
+  .appContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contentAndSidebarDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    min-height: 130vh;
+    max-width: 350px;
+  }
+
+  .headerLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .appContentDiv {
+    margin: auto;
+    margin-right: 0;
+    padding: 2%;
+    min-width: 150px;
+    min-height: 150px;
+  }
+}
+
 .appContainer {
   padding-top: 5%;
   min-height: 120vh;
@@ -16,10 +55,10 @@
   justify-content: center;
   line-height: 1.5;
   border: 1px solid var(--line);
-  font-weight: 400;
   padding: 10vh;
   height: 29vh;
   width: 29vh;
+  margin-right: 5%;
 } 
 
 .headerLinks {
