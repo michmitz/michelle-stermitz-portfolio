@@ -8,7 +8,7 @@ import projectStyles from '../../../../../styles/projectStyles.css';
 export default function Forecast() {
 
   const forecastSlider = (
-    <AwesomeSlider cssModule={builtInSliderStyles}>
+    <AwesomeSlider cssModule={builtInSliderStyles} className={projectStyles.awesomeSlider}>
       <div>
         <img src={'/assets/project-images/forecast-1.png'} className={projectStyles.sliderImage} alt="forecast-1"/>
       </div>

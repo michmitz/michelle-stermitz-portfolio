@@ -8,7 +8,7 @@ import projectStyles from '../../../../../styles/projectStyles.css';
 export default function TrulyTrivial() {
 
   const trulyTrivialSlider = (
-    <AwesomeSlider cssModule={builtInSliderStyles}>
+    <AwesomeSlider cssModule={builtInSliderStyles} className={projectStyles.awesomeSlider}>
       <div>
         <img src={'/assets/project-images/truly-trivial-1.png'} className={projectStyles.sliderImage} alt="truly-trivial-login-page"/>
       </div>

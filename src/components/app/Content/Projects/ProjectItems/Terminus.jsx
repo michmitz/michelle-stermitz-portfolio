@@ -8,7 +8,7 @@ import projectStyles from '../../../../../styles/projectStyles.css';
 export default function Terminus() {
 
   const terminusSlider = (
-    <AwesomeSlider cssModule={builtInSliderStyles}>
+    <AwesomeSlider cssModule={builtInSliderStyles} className={projectStyles.awesomeSlider}>
       <div>
         <img src={'/assets/project-images/terminus-1.png'} className={projectStyles.sliderImage} alt="terminus-sign-up-page"/>
       </div>
