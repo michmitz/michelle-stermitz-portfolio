@@ -184,9 +184,9 @@ exports[`App component renders App 1`] = `
                 href="https://github.com/michmitz"
               >
                 <img
-                  alt="/assets/github-logo-white.png"
+                  alt="github-logo"
                   class="githubIcon"
-                  src="/assets/GitHub-Mark.png"
+                  src="/assets/github-white.png"
                 />
                 /michmitz
               </a>
@@ -195,7 +195,7 @@ exports[`App component renders App 1`] = `
                 href="https://linkedin.com/in/michellestermitz"
               >
                 <img
-                  alt="/assets/linkedin-white.png"
+                  alt="linkedin-logo"
                   class="icon"
                   src="/assets/linkedin-white.png"
                 />
@@ -206,7 +206,7 @@ exports[`App component renders App 1`] = `
                 href="https://twitter.com/michmitzpdx"
               >
                 <img
-                  alt="/assets/twitter-white.png"
+                  alt="twitter-logo"
                   class="icon"
                   src="/assets/twitter-white.png"
                 />

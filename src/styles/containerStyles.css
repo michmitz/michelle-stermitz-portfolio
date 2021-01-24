@@ -16,7 +16,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
     min-height: 130vh;
     max-width: 350px;
   }
@@ -30,7 +29,7 @@
 
   .appContentDiv {
     margin: auto;
-    margin-right: 0;
+    margin-right: auto;
     padding: 2%;
     min-width: 150px;
     min-height: 150px;
