@@ -14,7 +14,7 @@ const handleChange = (e) => {
     document.documentElement.style
       .setProperty('--text', 'black');
     document.documentElement.style
-      .setProperty('--background', 'white');
+      .setProperty('--background', 'rgba(255, 240, 240)');
     document.documentElement.style
       .setProperty('--line', 'black'); 
   } else if(selectedColor === 'dark') {
