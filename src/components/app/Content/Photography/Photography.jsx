@@ -4,6 +4,7 @@ import FadeIn from 'react-fade-in';
 import { Link } from 'react-router-dom';
 import styles from '../../../../styles/styles.css';
 import photographyStyles from '../../../../styles/photographyStyles.css';
+import Gallery from './Gallery';
 
 export default function Photography() {
   return (
@@ -14,13 +15,10 @@ export default function Photography() {
       <div className={photographyStyles.photoContent}>
         
         <div className={photographyStyles.description}>
-        Photography is yet another creative outlet for me. As a native Montanan, I am inspired by the tranquility I find in nature, minimalism, wildlife and lush landscapes.  
+        Photography is one of many creative outlets for me. As a native Montanan, I am inspired by tranquility I find in nature, wildlife and beautiful landscapes.  
         </div>
 
-        <div className={photographyStyles.photoGallery}>
-          Photo gallery
-        </div>
-
+        <Gallery />
 
       </div>
     </FadeIn>
