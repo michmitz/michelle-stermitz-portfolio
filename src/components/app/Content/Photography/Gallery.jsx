@@ -1,11 +1,15 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { LazyLoadImage, trackWindowScroll } from 'react-lazy-load-image-component';
-import { images } from './images.js';
+import { horizontalImages } from './images/horizontalImages.js';
+import { verticalImages } from './images/verticalImages.js';
+import { squareImages } from './images/squareImages.js';
 import photographyStyles from '../../../../styles/photographyStyles.css';
 import 'react-lazy-load-image-component/src/effects/opacity.css';
 
 const Gallery = ({ scrollPosition }) => {
+  const images = horizontalImages.concat(verticalImages, squareImages);
+
   return (
     <div className={photographyStyles.photoGallery}>
       {images.map((image) =>

@@ -30,13 +30,12 @@
 }
 
 .image {
-  height: 200px;
-  width: 400px;
+  width: 98%;
 }
 
 .caption {
   font-family: var(--bodyFont);
-  font-size: .8em;
+  font-size: .7em;
 }
 
 .photoGallery {

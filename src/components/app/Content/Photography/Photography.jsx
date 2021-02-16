@@ -15,7 +15,7 @@ export default function Photography() {
       <div className={photographyStyles.photoContent}>
         
         <div className={photographyStyles.description}>
-        Photography is one of many creative outlets for me. As a native Montanan, I am inspired by tranquility I find in nature, wildlife and beautiful landscapes.  
+        Photography is one of many creative outlets for me. As a native Montanan, I am inspired by the tranquility and simplicity I find in nature, wildlife and beautiful landscapes.  
         </div>
 
         <Gallery />
