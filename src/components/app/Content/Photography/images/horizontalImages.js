@@ -223,12 +223,6 @@ export const horizontalImages = [
   },
   {
     className: 'horizontal',
-    src: '/assets/photography/horizontal/virginia-city-farm.png',
-    alt: 'virginia-city-farm.png',
-    caption: 'Farm in Virginia City, MT'
-  },
-  {
-    className: 'horizontal',
     src: '/assets/photography/horizontal/virginia-city-house.png',
     alt: 'virginia-city-house.png',
     caption: 'House in Virginia City, MT'
