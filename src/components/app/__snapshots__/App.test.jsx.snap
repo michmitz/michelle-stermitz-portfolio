@@ -50,6 +50,12 @@ exports[`App component renders App 1`] = `
             >
               Resume & Experience
             </a>
+            <a
+              class="headerLinks"
+              href="/photography"
+            >
+              Photography
+            </a>
           </div>
           <div
             class="sidebarDiv"
