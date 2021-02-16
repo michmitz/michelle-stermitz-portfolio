@@ -21,7 +21,7 @@ export const verticalImages = [
     className: 'vertical',
     src: '/assets/photography/vertical/fishing.png',
     alt: 'fishing.png',
-    caption: 'Fly fishing on the Bitteroot in MT'
+    caption: 'Fly fishing on the Bitterroot in MT'
   },
   {
     className: 'vertical',
