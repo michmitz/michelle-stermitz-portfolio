@@ -11,6 +11,7 @@ export default function Content() {
       <Link to="/working-on" className={containerStyles.headerLinks}>Current Projects</Link>
       <Link to="/collaborate" className={containerStyles.headerLinks}>Collaborate</Link>
       <Link to="/experience" className={containerStyles.headerLinks}>Resume & Experience</Link>
+      <Link to="/photography" className={containerStyles.headerLinks}>Photography</Link>
     </div>
   );
 }

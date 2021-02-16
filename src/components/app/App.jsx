@@ -17,6 +17,7 @@ import WorkingOn from './Content/WorkingOn/WorkingOn';
 import Collaborate from './Content/Collaborate/Collaborate';
 import FadeIn from 'react-fade-in';
 import { TinyButton as ScrollUpButton } from 'react-scroll-up-button';
+import Photography from './Content/Photography/Photography';
 
 export default function App() {
   return ( 
@@ -55,6 +56,11 @@ export default function App() {
                 path="/experience"
                 exact
                 render={(routerProps) => <WorkTimeline {...routerProps} />}
+              />
+              <Route
+                path="/photography"
+                exact
+                render={(routerProps) => <Photography {...routerProps} />}
               />
             </Switch>
           </Router>
