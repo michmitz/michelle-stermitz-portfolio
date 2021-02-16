@@ -78,9 +78,9 @@ exports[`App component renders App 1`] = `
                     <input
                       name="sound"
                       type="radio"
-                      value="fire"
+                      value="fireplace"
                     />
-                    fire
+                    fireplace
                   </label>
                   <label>
                     <input

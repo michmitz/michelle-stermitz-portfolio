@@ -37,7 +37,7 @@ export default function Sounds() {
       sound.stop();
     });
 
-    if(selectedSound === 'fire') {
+    if(selectedSound === 'fireplace') {
       playFire();
     } else if(selectedSound === 'stream') {
       playStream();
@@ -63,9 +63,9 @@ export default function Sounds() {
           <input
             type="radio"
             name="sound" 
-            value="fire"
+            value="fireplace"
             onClick={handleClick} />
-            fire
+            fireplace
         </label>
 
         <label>
