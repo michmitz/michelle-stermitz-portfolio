@@ -40,7 +40,7 @@ const customTheme = createTheme(themes.default, {
 
 export default function WorkTimeline() {
   const [languagesOpen, setLanguagesOpen] = useState(false);
-  const [frameworksOpen, setFrameworksOpen] = useState(false);
+  const [frontendOpen, setFrontendOpen] = useState(false);
   const [backendOpen, setBackendOpen] = useState(false);
   const [toolsOpen, setToolsOpen] = useState(false);
   const [testingOpen, setTestingOpen] = useState(false);
@@ -49,8 +49,8 @@ export default function WorkTimeline() {
     languagesOpen ? setLanguagesOpen(false) : setLanguagesOpen(true);
   };
   
-  const handleFrameworks = () => {
-    frameworksOpen ? setFrameworksOpen(false) : setFrameworksOpen(true);
+  const handleFrontend = () => {
+    frontendOpen ? setFrontendOpen(false) : setFrontendOpen(true);
   };
 
   const handleBackend = () => {
@@ -88,16 +88,18 @@ export default function WorkTimeline() {
             <header className={timelineStyles.collapsibleHeader} onClick={handleLanguages}>Languages
               <ol className={ languagesOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
                 <li>JavaScript</li>
-                <li>TypeScript</li>
+                <li>TypeScript (learning)</li>
+                <li>Ruby on Rails (learning)</li>
                 <li>HTML</li>
                 <li>CSS</li>
               </ol>
             </header>
 
-            <header className={timelineStyles.collapsibleHeader} onClick={handleFrameworks}>Frameworks
-              <ol className={ frameworksOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
+            <header className={timelineStyles.collapsibleHeader} onClick={handleFrontend}>Frontend
+              <ol className={ frontendOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
                 <li>React</li>
                 <li>Redux</li>
+                <li>Inquirer</li>
               </ol>
             </header>
 
@@ -105,19 +107,26 @@ export default function WorkTimeline() {
               <ol className={ backendOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
                 <li>Node.js</li>
                 <li>Express</li>
-                <li>PostgreSQL</li>
+                <li>PostgreSQL/SQL</li>
                 <li>Sequelize</li>
                 <li>Redis</li>
-                <li>Bcrypt</li>
+                <li>bcrypt</li>
+                <li>PRAW (Python)</li>
+                <li>AWS</li>
               </ol>
             </header>
 
-            <header className={timelineStyles.collapsibleHeader} onClick={handleTools}>Tools
+            <header className={timelineStyles.collapsibleHeader} onClick={handleTools}>Tools & Services
               <ol className={ toolsOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden }>
                 <li>Heroku</li>
                 <li>Netlify</li>
                 <li>Slack</li>
-                <li>Github</li>
+                <li>Github/Git</li>
+                <li>PGAdmin</li>
+                <li>Postman</li>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Illustrator</li>
+                <li>Canva</li>
               </ol>
             </header>
 
@@ -125,6 +134,7 @@ export default function WorkTimeline() {
               <ol className={ testingOpen ? timelineStyles.collapsibleOpen : timelineStyles.collapsibleHidden } >
                 <li>Jest</li>
                 <li>Qunit</li>
+                <li>Supertest</li>
               </ol>
             </header>
           </div>
