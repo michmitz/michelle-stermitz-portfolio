@@ -38,7 +38,7 @@ export const horizontalImages = [
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/bitteroot.png',
-    alt: 'bitteroot.png',
+    alt: 'bitterroot.png',
     caption: 'Bitterroot River, MT'
   },
   {

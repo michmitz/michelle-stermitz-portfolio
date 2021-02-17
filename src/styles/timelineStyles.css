@@ -94,6 +94,7 @@ ol, li {
 .collapsibleDiv {
   cursor: pointer;
   font-family: var(--headerFont);
+  min-width: 150px;
 }
 
 .collapsibleOpen {
