@@ -23,6 +23,9 @@
   --background: black;
   --line: white;
 
+  --timelineDate: #D19FA0;
+  --timelineCard: rgba(255, 240, 240);
+
   cursor: auto;
 }
 
