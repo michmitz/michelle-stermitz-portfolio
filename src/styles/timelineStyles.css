@@ -89,17 +89,16 @@ ol, li {
   font-size: .85em;
   font-weight: 300;
   padding-top: 2%;
-  min-width: 150px;
 }
 
 .collapsibleDiv {
   cursor: pointer;
   font-family: var(--headerFont);
+  min-width: 150px;
 }
 
 .collapsibleOpen {
   display: visible;
-  min-width: 150px;
 }
 
 .collapsibleHidden {
