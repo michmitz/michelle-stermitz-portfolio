@@ -16,7 +16,11 @@ const handleChange = (e) => {
     document.documentElement.style
       .setProperty('--background', 'rgba(255, 240, 240)');
     document.documentElement.style
-      .setProperty('--line', 'black'); 
+      .setProperty('--line', 'black');
+    document.documentElement.style
+      .setProperty('--timelineDate', '#D19FA0');
+    document.documentElement.style
+      .setProperty('--timelineCard', 'white');   
   } else if(selectedColor === 'dark') {
     document.documentElement.style
       .setProperty('--text', 'white');
@@ -24,6 +28,10 @@ const handleChange = (e) => {
       .setProperty('--background', 'black');
     document.documentElement.style
       .setProperty('--line', 'white');
+    document.documentElement.style
+      .setProperty('--timelineDate', '#D19FA0');
+    document.documentElement.style
+      .setProperty('--timelineCard', 'rgba(255, 240, 240)'); 
   }
 };
 

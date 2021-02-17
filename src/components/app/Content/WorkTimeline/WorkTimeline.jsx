@@ -18,12 +18,12 @@ import {
 
 const customTheme = createTheme(themes.default, {
   card: {
-    backgroundColor: 'rgb(235, 235, 235)',
+    backgroundColor: 'var(--timelineCard)',
   },
   date: {
-    backgroundColor: 'gray',
+    backgroundColor: 'var(--timelineDate)',
     fontFamily: 'var(--headerFont)',
-    fontSize: '.7em',
+    fontSize: '.8em',
     fontWeight: 400,
   },
   marker: {
@@ -35,7 +35,7 @@ const customTheme = createTheme(themes.default, {
   },
   urlButton: {
     backgroundColor: 'black',
-  },
+  }
 });
 
 export default function WorkTimeline() {
@@ -156,7 +156,7 @@ export default function WorkTimeline() {
 
                 <TextEvent className={timelineStyles.event} date="2019-2020" text="<h2>Powell's City of Books</h2>
                 <h3>Portland, OR</h3>
-                <p>Working in the inventory department at Powell's was a dream job! I got laid off due to the pandemic, but it allowed me to attend Alchemy.</p>" />
+                <p>Working in the inventory department at Powell's was a dream job! I was laid off due to the pandemic, but it allowed me to attend Alchemy.</p>" />
 
                 <TextEvent className={timelineStyles.event} date="2017-2019" text="<h2>Freelance Graphic Design, Personal Assistant</h2>
                 <h3>Remote, Los Angeles, CA, and Missoula, MT</h3>
