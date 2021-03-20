@@ -1,4 +1,4 @@
-.resumeDiv, .skillsDiv, .timelineHeaderDiv, .resumeLink, .resumeSkillsTimelineDiv, .imageEvent, ol, li, .collapsibleHeader {
+.resumeDiv, .skillsDiv, .timelineHeaderDiv, .resumeLink, .resumeSkillsTimelineDiv, .imageEvent, ol, li, .collapsibleHeader, .collapsibleDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,7 +88,7 @@ ol, li {
 .collapsibleHeader {
   font-size: .85em;
   font-weight: 300;
-  padding-top: 2%;
+  padding: 2%;
 }
 
 .collapsibleDiv {
