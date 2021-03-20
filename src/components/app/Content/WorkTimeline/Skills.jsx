@@ -1,8 +1,6 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { useState } from 'react';
-import FadeIn from 'react-fade-in';
-import { Link } from 'react-router-dom';
 import styles from '../../../../styles/styles.css';
 import timelineStyles from '../../../../styles/timelineStyles.css';
 
@@ -35,7 +33,6 @@ export default function Skills() {
   };
 
   return (
-
     <div className={timelineStyles.skillsDiv}>
       <h2 className={timelineStyles.sectionTitle}>Tech Stack</h2>
   
@@ -95,5 +92,4 @@ export default function Skills() {
       </div>
     </div>
   );
-
 }
