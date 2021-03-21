@@ -23,7 +23,7 @@ export default function Flashcards() {
 
       <h3 className={projectStyles.tech}>Tech: React, CSS, Node.js, Express, postgreSQL</h3>
 
-      <p className={projectStyles.description}>With two others, I am currently developing this flashcard app that allows the user to study questions that might come up in a software engineer interview. I have heavily contributed to both the front and backend, seeding our database, styling the site, displaying the flashcards, and researching the questions.</p>
+      <p className={projectStyles.description}>With two others, I am currently developing this flashcard app that allows the user to study questions that might come up in a software engineer interview. I have heavily contributed to all aspects of the app - testing, seeding our database, styling the site, displaying the flashcards, and researching the questions.</p>
       
       <div className={projectStyles.lineDiv} />
 

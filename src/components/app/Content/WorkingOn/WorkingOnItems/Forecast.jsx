@@ -15,6 +15,9 @@ export default function Forecast() {
       <div>
         <img src={'/assets/project-images/forecast-2.png'} className={projectStyles.sliderImage} alt="forecast-2"/>
       </div>
+      <div>
+        <img src={'/assets/project-images/forecast-3.png'} className={projectStyles.sliderImage} alt="forecast-3"/>
+      </div>
     </AwesomeSlider>
   );
 
@@ -26,7 +29,8 @@ export default function Forecast() {
 
       <h3 className={projectStyles.tech}>Tech: React, Redux, CSS</h3>
 
-      <p className={projectStyles.description}>Forecast is a simple weather app I built with React, Redux, CSS, and the Open Weather API. Enter a city and receive a 16-day forecast with customized adorable gifs!</p>
+      <p className={projectStyles.description}>I am continuously developing this app - Forecast is a weather and moonphase calendar built with React, Redux, CSS, and the Open Weather API. Enter a city and receive a 16-day forecast, or view the moonphases for the next cycle. 
+      I am the most proud of writing a script that calculates the moon phase for the next month, as well as displaying gifs that are customized to the weather or moon phase.</p>
       
       <div className={projectStyles.lineDiv} />
 
