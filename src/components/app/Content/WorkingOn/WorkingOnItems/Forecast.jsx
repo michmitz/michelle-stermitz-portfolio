@@ -29,7 +29,7 @@ export default function Forecast() {
 
       <h3 className={projectStyles.tech}>Tech: React, Redux, CSS</h3>
 
-      <p className={projectStyles.description}>I am continuously developing this app - Forecast is a weather and moonphase calendar built with React, Redux, CSS, and the Open Weather API. Enter a city and receive a 16-day forecast, or view the moonphases for the next cycle. 
+      <p className={projectStyles.description}>I am continuously adding to Forecast - a weather and moonphase calendar built with React, Redux, CSS, and the Open Weather API. Enter a city and receive a 16-day forecast, or view the moonphases for the next cycle. 
       I am the most proud of writing a script that calculates the moon phase for the next month, as well as displaying gifs that are customized to the weather or moon phase.</p>
       
       <div className={projectStyles.lineDiv} />
