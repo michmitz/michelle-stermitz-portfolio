@@ -15,55 +15,55 @@ export const squareImages = [
     className: 'square',
     src: '/assets/photography/square/cherry-farm.png',
     alt: 'cherry-farm.png',
-    caption: 'Butterflies at a cherry farm on Flathead Lake, MT'
+    caption: 'Cherry farm butterflies, Flathead Lake, MT'
   },
   {
     className: 'square',
     src: '/assets/photography/square/cloudy-mountain.png',
     alt: 'cloudy-mountain.png',
-    caption: 'A cloudy day in Missoula, MT'
+    caption: 'Missoula, MT'
   },
   {
     className: 'square',
     src: '/assets/photography/square/cow.png',
     alt: 'cow.png',
-    caption: 'Cow hiding from a storm under a tree in Timaru, New Zealand'
+    caption: 'Cow hiding from a storm, Timaru, New Zealand'
   },
   {
     className: 'square',
     src: '/assets/photography/square/cows.png',
     alt: 'cows.png',
-    caption: 'Cows in Arlee, MT'
+    caption: 'Arlee, MT'
   },
   {
     className: 'square',
     src: '/assets/photography/square/dragonfly.jpg',
     alt: 'dragonfly.jpg',
-    caption: 'Dragonfly in Whitefish, MT'
+    caption: 'Whitefish, MT'
   },
   {
     className: 'square',
     src: '/assets/photography/square/ice-fishing.png',
     alt: 'ice-fishing.png',
-    caption: 'Ice fishing in Discovery, MT'
+    caption: 'Ice fishing, Discovery, MT'
   },
   {
     className: 'square',
     src: '/assets/photography/square/los-angeles-skyline.png',
     alt: 'los-angeles-skyline.png',
-    caption: 'Skyline in Los Angeles, CA'
+    caption: 'Los Angeles, CA'
   },
   {
     className: 'square',
     src: '/assets/photography/square/moon.png',
     alt: 'moon.png',
-    caption: 'Moon in Missoula, MT'
+    caption: 'Missoula, MT'
   },
   {
     className: 'square',
     src: '/assets/photography/square/purple-storm.png',
     alt: 'purple-storm.png',
-    caption: 'A lightning bolt during a storm in Florence, MT'
+    caption: 'Storm, Florence, MT'
   },
   {
     className: 'square',
@@ -75,7 +75,7 @@ export const squareImages = [
     className: 'square',
     src: '/assets/photography/square/searat.png',
     alt: 'searat.png',
-    caption: 'Seagull in Lithuania'
+    caption: 'Seagull, Lithuania'
   },
   {
     className: 'square',
@@ -87,7 +87,7 @@ export const squareImages = [
     className: 'square',
     src: '/assets/photography/square/spring.png',
     alt: 'spring.png',
-    caption: 'A rainy spring day in Florence, MT'
+    caption: 'A rainy spring day, Florence, MT'
   }
 ];
 
