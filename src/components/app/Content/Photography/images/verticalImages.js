@@ -3,37 +3,37 @@ export const verticalImages = [
     className: 'vertical',
     src: '/assets/photography/vertical/bar.png',
     alt: 'bar.png',
-    caption: 'Bar in Oakland, CA'
+    caption: 'Bar, Oakland, CA'
   },
   {
     className: 'vertical',
     src: '/assets/photography/vertical/beach.png',
     alt: 'beach.png',
-    caption: 'Palm tree in Palms, CA'
+    caption: 'Palms, CA'
   },
   {
     className: 'vertical',
     src: '/assets/photography/vertical/deer.png',
     alt: 'deer.png',
-    caption: 'Deer in Glacier Park, MT'
+    caption: 'Doe, Lake McDonald, MT'
   },
   {
     className: 'vertical',
     src: '/assets/photography/vertical/fishing.png',
     alt: 'fishing.png',
-    caption: 'Fly fishing on the Bitterroot in MT'
+    caption: 'Fly fishing on the Bitterroot River, MT'
   },
   {
     className: 'vertical',
     src: '/assets/photography/vertical/hill-of-crosses.png',
     alt: 'hill-of-crosses-2.png',
-    caption: 'Hill of Crosses in Lithuania'
+    caption: 'Hill of Crosses, Lithuania'
   },
   {
     className: 'vertical',
     src: '/assets/photography/vertical/lithuanian-village.png',
     alt: 'lithuanian-village.png',
-    caption: 'A house in an old village in Lithuania'
+    caption: 'Old village, Lithuania'
   },
   {
     className: 'vertical',
@@ -45,7 +45,7 @@ export const verticalImages = [
     className: 'vertical',
     src: '/assets/photography/vertical/no-tail.png',
     alt: 'no-tail.png',
-    caption: 'No Tail the cat in Pablo, MT, Christmas Day'
+    caption: 'No Tail the cat on Christmas Day, Pablo, MT'
   },
   {
     className: 'vertical',
@@ -57,7 +57,7 @@ export const verticalImages = [
     className: 'vertical',
     src: '/assets/photography/vertical/sheep.png',
     alt: 'sheep.png',
-    caption: 'Sheep in Timaru, New Zealand'
+    caption: 'Timaru, New Zealand'
   },
   {
     className: 'vertical',
@@ -75,7 +75,7 @@ export const verticalImages = [
     className: 'vertical',
     src: '/assets/photography/vertical/winter-drive.png',
     alt: 'winter-drive.png',
-    caption: 'A view in winter in Pablo, MT'
+    caption: 'Winter, Pablo, MT'
   }
 ];
 

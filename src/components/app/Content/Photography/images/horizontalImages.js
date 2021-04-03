@@ -15,25 +15,25 @@ export const horizontalImages = [
     className: 'horizontal',
     src: '/assets/photography/horizontal/ambrotype-mountain.png',
     alt: 'ambrotype-mountain.png',
-    caption: 'Dusk in Florence, Montana'
+    caption: 'Florence, MT'
   }, 
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/andrea-lithuania.png',
     alt: 'andrea-lithunia.png',
-    caption: 'Old village in Lithuania'
+    caption: 'Old village, Lithuania'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/arlee.png',
     alt: 'arlee.png',
-    caption: 'Arlee, Montana'
+    caption: 'Arlee, MT'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/birds.png',
     alt: 'birds.png',
-    caption: 'Shore birds of Playa del Rey, CA'
+    caption: 'Playa del Rey, CA'
   },
   {
     className: 'horizontal',
@@ -51,19 +51,19 @@ export const horizontalImages = [
     className: 'horizontal',
     src: '/assets/photography/horizontal/buffalo.png',
     alt: 'buffalo.png',
-    caption: 'Lone bison in Yellowstone Park, MT'
+    caption: 'Yellowstone Park, MT'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/dock.png',
     alt: 'dock.png',
-    caption: 'Dock in Nida, Lithuania'
+    caption: 'Nida, Lithuania'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/downpour.png',
     alt: 'downpour.png',
-    caption: 'Downpour in Florence, MT'
+    caption: 'Florence, MT'
   },
   {
     className: 'horizontal',
@@ -81,13 +81,13 @@ export const horizontalImages = [
     className: 'horizontal',
     src: '/assets/photography/horizontal/fish.png',
     alt: 'fish.png',
-    caption: 'Fish at an aquarium in San Francisco, CA'
+    caption: 'San Francisco, CA'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/garnet-kitchen.png',
     alt: 'garnet-kitchen.png',
-    caption: 'Kitchen in the ghost town of Garnet, MT'
+    caption: 'Ghost town of Garnet, MT'
   },
   {
     className: 'horizontal',
@@ -99,13 +99,13 @@ export const horizontalImages = [
     className: 'horizontal',
     src: '/assets/photography/horizontal/highlander.png',
     alt: 'highlander.png',
-    caption: 'Highlander in Timaru, New Zealand'
+    caption: 'Timaru, New Zealand'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/hill-of-crosses.png',
     alt: 'hill-of-crosses.png',
-    caption: 'Hill of Crosses in Lithuania'
+    caption: 'Hill of Crosses, Lithuania'
   },
   {
     className: 'horizontal',
@@ -117,7 +117,7 @@ export const horizontalImages = [
     className: 'horizontal',
     src: '/assets/photography/horizontal/jasper.png',
     alt: 'jasper.png',
-    caption: 'Christmas Day in Pablo, MT'
+    caption: 'Christmas Day, Pablo, MT'
   },
   {
     className: 'horizontal',
@@ -129,25 +129,25 @@ export const horizontalImages = [
     className: 'horizontal',
     src: '/assets/photography/horizontal/lithuanian-dock.png',
     alt: 'lithuanian-dock.png',
-    caption: 'Dock in Nida, Lithuania'
+    caption: 'Nida, Lithuania'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/maggie.png',
     alt: 'maggie.png',
-    caption: 'Maggie the springer spaniel in Missoula, MT'
+    caption: 'Missoula, MT'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/manor-lake.png',
     alt: 'manor-lake.png',
-    caption: 'Lake at a very old manor in Lithuania'
+    caption: 'Lake at old manor, Lithuania'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/moon-weeds.png',
     alt: 'moon-weeds.png',
-    caption: 'A view of the moon in Florence, MT'
+    caption: 'Florence, MT'
   },
   {
     className: 'horizontal',
@@ -159,43 +159,43 @@ export const horizontalImages = [
     className: 'horizontal',
     src: '/assets/photography/horizontal/new-zealand-rain.png',
     alt: 'new-zealand-rain.png',
-    caption: 'A rainy evening in Lyttelton, New Zealand'
+    caption: 'Lyttelton, New Zealand'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/nuns.png',
     alt: 'nuns.png',
-    caption: 'Nun statues in Vilnius, Lithuania'
+    caption: 'Vilnius, Lithuania'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/playa-boat.png',
     alt: 'playa-boat.png',
-    caption: 'Boat washed ashore in a storm in Playa del Rey, CA'
+    caption: 'Boat washed ashore from storm, Playa del Rey, CA'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/ranch.png',
     alt: 'ranch.png',
-    caption: 'Wheelbarrow Creek Ranch in Stevensville, MT'
+    caption: 'Wheelbarrow Creek Ranch, Stevensville, MT'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/rowers.png',
     alt: 'rowers.png',
-    caption: 'Rowers in Marina del Rey, CA'
+    caption: 'Marina del Rey, CA'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/seagull.png',
     alt: 'seagull.png',
-    caption: 'Seagull in Fisherman\'s Wharf, San Francisco, CA'
+    caption: 'Fisherman\'s Wharf, San Francisco, CA'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/sheep-timaru.png',
     alt: 'sheep-timaru.png',
-    caption: 'Sheep in Timaru, New Zealand'
+    caption: 'Timaru, New Zealand'
   },
   {
     className: 'horizontal',
@@ -207,43 +207,43 @@ export const horizontalImages = [
     className: 'horizontal',
     src: '/assets/photography/horizontal/the-waterfront.png',
     alt: 'the-waterfront.png',
-    caption: 'The Waterfront in Oakland, CA'
+    caption: 'The Waterfront, Oakland, CA'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/tradepost.png',
     alt: 'tradepost.png',
-    caption: 'Tradepost off Highway 12 in Montana'
+    caption: 'Tradepost off Highway 12, MT'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/vc-gas-station.png',
     alt: 'vc-gas-station.png',
-    caption: 'Abandoned gas station in Virginia City, MT'
+    caption: 'Abandoned gas station, Virginia City, MT'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/virginia-city-house.png',
     alt: 'virginia-city-house.png',
-    caption: 'House in Virginia City, MT'
+    caption: 'Virginia City, MT'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/waves.png',
     alt: 'waves.png',
-    caption: 'Wave on the shore of Playa del Rey, CA'
+    caption: 'Playa del Rey, CA'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/wheelbarrow-creek.png',
     alt: 'wheelbarrow-creek.png',
-    caption: 'Wheelbarrow Creek Ranch view in Stevensville, MT'
+    caption: 'Wheelbarrow Creek Ranch, Stevensville, MT'
   },
   {
     className: 'horizontal',
     src: '/assets/photography/horizontal/yellowstone-pool.png',
     alt: 'yellowstone-pool.png',
-    caption: 'Hot spring in Yellowstone Park, MT'
+    caption: 'Yellowstone Park, MT'
   },
   {
     className: 'horizontal',
