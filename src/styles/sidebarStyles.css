@@ -114,12 +114,34 @@
 }
 
 .soundsHeader {
-  font-size: 1.1em;
+  font-size: 1.5em;
+  margin-bottom: 10%;
 }
 
 .themeHeader {
-  font-size: 1em;
+  font-size: 1.3em;
   margin-bottom: 5%;
+}
+
+.soundIcon {
+  width: 15px;
+  height: 15px;
+}
+
+label {
+  cursor: pointer;
+  margin-bottom: 2%;
+  margin-left: 3%;
+}
+
+label:hover {
+  color: var(--hoverColor);
+}
+
+.soundInput {
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 
 .muteButton {
@@ -129,20 +151,14 @@
 .muteLabel {
   display: flex;
   background-color: var(--background);
-  border: 1px solid var(--line);
+  border: 2px solid var(--line);
   outline: none;
   width: 12px;
   height: 12px;
   border-radius: 3px;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 300;
-  margin-left: 4%;
   margin-top: 5%;
-}
-
-.muteLabel p {
-  margin-top: 0;
-  margin-left: -40%;
 }
 
 input {

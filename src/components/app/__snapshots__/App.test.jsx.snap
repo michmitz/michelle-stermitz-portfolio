@@ -69,13 +69,19 @@ exports[`App component renders App 1`] = `
                 <h2
                   class="soundsHeader"
                 >
-                  Relax with a sound.
+                  Relax.
                 </h2>
                 <div
                   class="buttonsDiv"
                 >
                   <label>
+                    <img
+                      alt="fireplace"
+                      class="soundIcon"
+                      src="/path/image"
+                    />
                     <input
+                      class="soundInput"
                       name="sound"
                       type="radio"
                       value="fireplace"
@@ -83,7 +89,13 @@ exports[`App component renders App 1`] = `
                     fireplace
                   </label>
                   <label>
+                    <img
+                      alt="stream"
+                      class="soundIcon"
+                      src="/path/image"
+                    />
                     <input
+                      class="soundInput"
                       name="sound"
                       type="radio"
                       value="stream"
@@ -91,7 +103,13 @@ exports[`App component renders App 1`] = `
                     stream
                   </label>
                   <label>
+                    <img
+                      alt="rain"
+                      class="soundIcon"
+                      src="/path/image"
+                    />
                     <input
+                      class="soundInput"
                       name="sound"
                       type="radio"
                       value="rain"
@@ -99,7 +117,13 @@ exports[`App component renders App 1`] = `
                     rain
                   </label>
                   <label>
+                    <img
+                      alt="birds"
+                      class="soundIcon"
+                      src="/path/image"
+                    />
                     <input
+                      class="soundInput"
                       name="sound"
                       type="radio"
                       value="birds"
@@ -107,7 +131,13 @@ exports[`App component renders App 1`] = `
                     birds
                   </label>
                   <label>
+                    <img
+                      alt="waves"
+                      class="soundIcon"
+                      src="/path/image"
+                    />
                     <input
+                      class="soundInput"
                       name="sound"
                       type="radio"
                       value="waves"
@@ -123,9 +153,7 @@ exports[`App component renders App 1`] = `
                       type="radio"
                       value="stop"
                     />
-                    <p>
-                      stop
-                    </p>
+                    stop
                   </label>
                 </div>
               </div>
