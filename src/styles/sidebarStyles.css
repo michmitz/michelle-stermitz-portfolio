@@ -114,7 +114,7 @@
 }
 
 .soundsHeader {
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-bottom: 10%;
 }
 
@@ -124,8 +124,8 @@
 }
 
 .soundIcon {
-  width: 15px;
-  height: 15px;
+  width: 12px;
+  height: 12px;
 }
 
 label {
@@ -151,7 +151,7 @@ label:hover {
 .muteLabel {
   display: flex;
   background-color: var(--background);
-  border: 2px solid var(--line);
+  border: 1px solid var(--line);
   outline: none;
   width: 12px;
   height: 12px;
