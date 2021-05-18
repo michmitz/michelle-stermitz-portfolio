@@ -1,42 +1,16 @@
 import React from 'react';
+import { useState } from 'react';
 import styles from '../../../styles/styles.css';
 import sidebarStyles from '../../../styles/sidebarStyles.css';
+import PropTypes from 'prop-types';
 const randomColor = require('randomcolor');
 
-const handleChange = (e) => {
-  const selectedColor = e.target.value;
 
-  /*
-  const generatedColor = randomColor({ luminosity: 'dark' });
-  const generatedColor2 = randomColor({ luminosity: 'light' });*/
-  
-  if(selectedColor === 'light') {
-    document.documentElement.style
-      .setProperty('--text', 'black');
-    document.documentElement.style
-      .setProperty('--background', 'rgba(255, 240, 240)');
-    document.documentElement.style
-      .setProperty('--line', 'black');
-    document.documentElement.style
-      .setProperty('--timelineDate', '#D19FA0');
-    document.documentElement.style
-      .setProperty('--timelineCard', 'white');   
-  } else if(selectedColor === 'dark') {
-    document.documentElement.style
-      .setProperty('--text', 'white');
-    document.documentElement.style
-      .setProperty('--background', 'black');
-    document.documentElement.style
-      .setProperty('--line', 'white');
-    document.documentElement.style
-      .setProperty('--timelineDate', '#D19FA0');
-    document.documentElement.style
-      .setProperty('--timelineCard', 'rgba(255, 240, 240)'); 
-  }
-};
+export default function ColorScheme({ onChange }) {
+  const handleChange = (e) => {
+    onChange(e.target.value);
+  };
 
-
-export default function ColorScheme() {
   return (
     <div className={sidebarStyles.colorSchemeDiv}>
       <h2 className={sidebarStyles.themeHeader}>Theme</h2>
@@ -44,7 +18,7 @@ export default function ColorScheme() {
       <div className={sidebarStyles.buttonsDiv}>
 
         <label>
-          <input 
+          <input
             type="radio" 
             name="color" 
             value="light"
@@ -66,3 +40,7 @@ export default function ColorScheme() {
     </div>
   );
 }
+
+ColorScheme.propTypes = {
+  onChange: PropTypes.func
+};
