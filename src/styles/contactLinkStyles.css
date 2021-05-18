@@ -63,3 +63,7 @@ a {
   font-size: .6em;
   text-decoration: none;
 }
+
+.contactLink:hover {
+  color: var(--hoverColor);
+}

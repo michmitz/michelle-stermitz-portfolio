@@ -1,15 +1,29 @@
 /* eslint-disable max-len */
 import React from 'react';
 import useSound from 'use-sound';
+import PropTypes from 'prop-types';
 import fire from '../../../../public/assets/sounds/Fire-sound-effect.mp3';
 import stream from '../../../../public/assets/sounds/water-stream-sound-effect.mp3';
 import rain from '../../../../public/assets/sounds/summer-rain-and-thunder-storm-sounds.mp3';
 import birds from '../../../../public/assets/sounds/Birds-chirping-sound-effect.mp3';
 import waves from '../../../../public/assets/sounds/calming-sea-sounds.mp3';
+import fireplaceWhite from '../../../../public/assets/icons/fireplace-white.png';
+import fireplaceBlack from '../../../../public/assets/icons/fireplace-black.png';
+import streamWhite from '../../../../public/assets/icons/stream-white.png';
+import streamBlack from '../../../../public/assets/icons/stream-black.png';
+import rainWhite from '../../../../public/assets/icons/water-drop-white.png';
+import rainBlack from '../../../../public/assets/icons/water-drop-black.png';
+import birdWhite from '../../../../public/assets/icons/bird-white.png';
+import birdBlack from '../../../../public/assets/icons/bird-black.png';
+import waveWhite from '../../../../public/assets/icons/wave-white.png';
+import waveBlack from '../../../../public/assets/icons/wave-black.png';
+
+
 import sidebarStyles from '../../../styles/sidebarStyles.css';
 
+
   
-export default function Sounds() {
+export default function Sounds({ theme }) {
   const options = {
     loop: true,
     volume: 0.5,
@@ -56,11 +70,12 @@ export default function Sounds() {
 
   return (
     <div className={sidebarStyles.soundsDiv}>
-      <h2 className={sidebarStyles.soundsHeader}>Relax with a sound.</h2>
+      <h2 className={sidebarStyles.soundsHeader}>Relax.</h2>
 
       <div className={sidebarStyles.buttonsDiv}>
         <label>
-          <input
+          <img alt="fireplace" className={sidebarStyles.soundIcon} src={theme === 'dark' ? fireplaceWhite : fireplaceBlack} />
+          <input className={sidebarStyles.soundInput}
             type="radio"
             name="sound" 
             value="fireplace"
@@ -69,7 +84,8 @@ export default function Sounds() {
         </label>
 
         <label>
-          <input
+          <img alt="stream" className={sidebarStyles.soundIcon} src={theme === 'dark' ? streamWhite : streamBlack} />
+          <input className={sidebarStyles.soundInput}
             type="radio"
             name="sound" 
             value="stream"
@@ -78,7 +94,8 @@ export default function Sounds() {
         </label>
 
         <label>
-          <input 
+          <img alt="rain" className={sidebarStyles.soundIcon} src={theme === 'dark' ? rainWhite : rainBlack} />
+          <input className={sidebarStyles.soundInput}
             type="radio"
             name="sound" 
             value="rain"
@@ -87,7 +104,8 @@ export default function Sounds() {
         </label>
 
         <label>
-          <input  
+          <img alt="birds" className={sidebarStyles.soundIcon} src={theme === 'dark' ? birdWhite : birdBlack} />
+          <input className={sidebarStyles.soundInput}
             type="radio"
             name="sound" 
             value="birds"
@@ -96,7 +114,8 @@ export default function Sounds() {
         </label>
 
         <label>
-          <input
+          <img alt="waves" className={sidebarStyles.soundIcon} src={theme === 'dark' ? waveWhite : waveBlack} />
+          <input className={sidebarStyles.soundInput}
             type="radio"
             name="sound" 
             value="waves"
@@ -111,10 +130,14 @@ export default function Sounds() {
             name="sound" 
             value="stop"
             onClick={handleClick} />
-          <p>stop</p>
+            stop
         </label>
 
       </div>
     </div>
   );
 }
+
+Sounds.propTypes = {
+  theme: PropTypes.string
+};

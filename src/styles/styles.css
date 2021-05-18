@@ -23,6 +23,8 @@
   --background: black;
   --line: white;
 
+  --hoverColor: rgb(225, 204, 253);
+
   --timelineDate: #D19FA0;
   --timelineCard: rgba(255, 240, 240);
 
@@ -51,6 +53,10 @@ h2 {
   font-family: var(--headerFont);
   font-weight: 300;
   font-size: 1em;
+}
+
+.returnLink:hover {
+  color: var(--hoverColor);
 }
 
 .contentDiv {

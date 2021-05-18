@@ -73,3 +73,8 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.headerLinks:hover {
+  color: var(--hoverColor);
+}
+
